@@ -13,14 +13,16 @@
 
 - Please follow naming convention for button classes.
 - Do not change default buttons maked as ` button-def ` class.
+- Do not change any code in `index.html`  except button section.
 - Do not change any code in `assets` folder.
 
 # How to contribute by adding more buttons
 
-1. Fork repo and clone it
-2. Add your HTML code in [index.html](https://github.com/Design-and-Code/css-buttons/blob/main/index.html) file
-3. Add CSS code in [buttons.css](https://github.com/Design-and-Code/css-buttons/blob/main/buttons/buttons.css) file
-4. Make sure you do not change other buttons code ( for that use proper name conversation  )
+1. Fork repo and clone it.
+2. Add your HTML code in [index.html](https://github.com/Design-and-Code/css-buttons/blob/main/index.html) file.
+3. Add CSS code in [buttons.css](https://github.com/Design-and-Code/css-buttons/blob/main/buttons/buttons.css) file.
+4. Make sure you do not change other buttons code ( for that use proper name conversation  ).
+5. While opening PR full screenshort.
 
 #### Demo code 
 ```html
