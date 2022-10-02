@@ -1,255 +1,271 @@
-
-a:focus, button:focus {
-	outline: none;
+:root {
+    --btn-bg-color: rgb(255 255 255 / 1);
+    --btn-bg-color-hover: rgb(129 120 255 / 1);
+    --font-color-white: rgb(255 255 255 / 1);
+    --font-color-black: rgb(0 0 0 / 1);
 }
+
+
+
+a:focus,
+button:focus {
+    outline: none;
+}
+
 a:focus-visible,
 button:focus-visible {
-	outline: 2px solid #443ffc;
-	outline-offset: 3px;
+    outline: 2px solid #443ffc;
+    outline-offset: 3px;
 }
 
 a:focus-visible {
-	background: none;
+    background: none;
 }
 
 .button-def {
-	pointer-events: auto;
-	cursor: pointer;
-	background: #794242;
-	border: none;
-	padding: 1.5rem 3rem;
-	margin: 0;
-	font-family: inherit;
-	font-size: inherit;
-	position: relative;
-	display: inline-block;
+    pointer-events: auto;
+    cursor: pointer;
+    background: var(--btn-bg-color);
+    border: none;
+    padding: 1.5rem 3rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
 }
 
 .button-def::before,
 .button-def::after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.button-pan {
-	font-family: aktiv-grotesk-extended, sans-serif;
-	font-weight: 700;
-	border: 2px solid #000;
-	border-radius: 3rem;
-	overflow: hidden;
-	color: #fff;
+.button-1 {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 3rem;
+    overflow: hidden;
+    color: var(--font-color-black);
+    background-color: var(--btn-bg-color-hover);
+
 }
 
-.button-pan span {
-	position: relative;
-	mix-blend-mode: difference;
+.button-1 span {
+    position: relative;
 }
 
-.button-pan::before {
-	content: '';
-	background: rgb(129, 120, 255);
-	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+.button-1::before {
+    content: '';
+    background: var(--btn-bg-color);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
-.button-pan:hover::before {
-	transform: translate3d(0,-100%,0);
+.button-1:hover::before {
+    transform: translate3d(0, -100%, 0);
 }
 
-.button-hyperion {
-	font-family: input-mono-narrow, monospace;
-	font-weight: 500;
-	padding: 1rem 1.5rem;
-	border: 1px solid #000;
-	overflow: hidden;
-	color: #fff;
+.button-2 {
+    font-family: input-mono-narrow, monospace;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    border: 1px solid #000;
+    overflow: hidden;
+    background-color: var(--btn-bg-color-hover);
 }
 
-.button-hyperion span {
-	display: block;
-	position: relative;
+.button-2 span {
+    display: block;
+    position: relative;
 }
 
-.button-hyperion > span {
-	overflow: hidden;
+.button-2>span {
+    color: var(--font-color-black);
+
+    overflow: hidden;
 }
 
-.button-hyperion > span > span {
-	overflow: hidden;
-	mix-blend-mode: difference;
+.button-2>span>span {
+    color: var(--font-color-black);
+    overflow: hidden;
 }
 
-.button-hyperion:hover > span > span {
-	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+.button-2:hover>span>span {
+    color: var(--font-color-black);
+    animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
 @keyframes MoveUpInitial {
-	to {
-		transform: translate3d(0,-105%,0);
-	}
+    to {
+        transform: translate3d(0, -105%, 0);
+    }
 }
 
 @keyframes MoveUpEnd {
-	from {
-		transform: translate3d(0,100%,0);
-	}
-	to {
-		transform: translate3d(0,0,0);
-	}
+    from {
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
 }
 
-.button-hyperion::before {
-	content: '';
-	background: #000;
-	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-	transform-origin: 100% 50%;
+.button-2::before {
+    content: '';
+    background: var(--btn-bg-color);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    transform-origin: 100% 50%;
 }
 
-.button-hyperion:hover::before {
-	transform: scale3d(0,1,1);
-	transform-origin: 0% 50%;
+.button-2:hover::before {
+    transform: scale3d(0, 1, 1);
+    transform-origin: 0% 50%;
 }
 
-.button-mimas {
-	text-transform: uppercase;
-	letter-spacing: 0.05rem;
-	font-weight: 700;
-	font-size: 0.85rem;
-	border-radius: 0.5rem;
-	overflow: hidden;
-	color: #fff;
-	background: #e7e7e7;
+.button-3 {
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    color: var(--font-color-black);
+    background-color: var(--btn-bg-color-hover);
 }
 
-.button-mimas span {
-	position: relative;
-	mix-blend-mode: difference;
+.button-3 span {
+    position: relative;
+
 }
 
-.button-mimas::before {
-	content: '';
-	background: #000;
-	width: 120%;
-	left: -10%;
-	transform: skew(30deg);
-	transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+.button-3::before {
+    content: '';
+    background: var(--btn-bg-color);
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
-.button-mimas:hover::before {
-	transform: translate3d(100%,0,0);
+.button-3:hover::before {
+    transform: translate3d(100%, 0, 0);
 }
 
-.button-atlas {
-	font-family: signo, sans-serif;
-	font-weight: 500;
+.button-4 {
+    font-family: signo, sans-serif;
+    font-weight: 500;
 }
 
-.button-atlas > span {
-	display: inline-block;
+.button-4>span {
+
+    display: inline-block;
 }
 
-.button-atlas:hover > span {
-	opacity: 0;
+.button-4:hover>span {
+    opacity: 0;
 }
 
 .marquee {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	overflow: hidden;
-	pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
 }
 
 .marquee__inner {
-	width: fit-content;
-	display: flex;
-	position: relative;
-	--offset: 1rem;
-	--move-initial: calc(-25% + var(--offset));
-	--move-final: calc(-50% + var(--offset));
-	transform: translate3d(var(--move-initial), 0, 0);
-	animation: marquee 1s linear infinite;
-	animation-play-state: paused;
-	opacity: 0;
+    width: fit-content;
+    display: flex;
+    position: relative;
+    --offset: 1rem;
+    --move-initial: calc(-25% + var(--offset));
+    --move-final: calc(-50% + var(--offset));
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee 1s linear infinite;
+    animation-play-state: paused;
+    opacity: 0;
 }
 
-.button-atlas:hover .marquee__inner {
-	animation-play-state: running;
-	opacity: 1;
-	transition-duration: 0.4s;
+.button-4:hover .marquee__inner {
+    animation-play-state: running;
+    opacity: 1;
+    transition-duration: 0.4s;
 }
 
 .marquee span {
-	text-align: center;
-	white-space: nowrap;
-	font-style: italic;
-	padding: 1.5rem 0.5rem;
+    text-align: center;
+    white-space: nowrap;
+    font-style: italic;
+    padding: 1.5rem 0.5rem;
 }
 
 @keyframes marquee {
-	0% {
-		transform: translate3d(var(--move-initial), 0, 0);
-	}
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
 
-	100% {
-		transform: translate3d(var(--move-final), 0, 0);
-	}
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
 }
 
-.button-kari {
-	font-family: freight-display-pro, serif;
-	font-weight: 900;
-	font-size: 1.25rem;
-	border-radius: 50%;
-	border: 2px solid #000;
+.button-5 {
+    font-family: freight-display-pro, serif;
+    font-weight: 900;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    border: 2px solid #000;
 }
 
-.button-kari > span {
-	display: inline-block;
-	transition: opacity 0.1s;
+.button-5>span {
+    display: inline-block;
+    transition: opacity 0.1s;
 }
 
-.button-kari:hover > span {
-	opacity: 0;
+.button-5:hover>span {
+    opacity: 0;
 }
 
-.button-kari .marquee {
-	transform: rotate(-2.75deg);
+.button-5 .marquee {
+    transform: rotate(-2.75deg);
 }
 
-.button-kari:hover .marquee__inner {
-	animation-play-state: running;
-	opacity: 1;
-	transition-duration: 0.6s;
+.button-5:hover .marquee__inner {
+    animation-play-state: running;
+    opacity: 1;
+    transition-duration: 0.6s;
 }
 
-.button-pandora {
-	background: #000;
-	font-weight: 700;
-	padding: 0;
-	border-radius: 5px;
+.button-6 {
+    background: var(--btn-bg-color-hover);
+    font-weight: 700;
+    padding: 0;
+    border-radius: 5px;
 }
 
-.button-pandora span {
-	display: block;
-	background: #a7a7a7;
-	padding: 1.5rem 2rem;
-	border: 1px solid #000;
-	border-radius: 5px;
-	transform: translate3d(-4px, -4px, 0);
-	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+.button-6 span {
+    display: block;
+    background: var(--btn-bg-color);
+    padding: 1.5rem 2rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transform: translate3d(-4px, -4px, 0);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
-.button-pandora:hover span {
-	transform: translate3d(-8px, -8px, 0);
+.button-6:hover span {
+    transform: translate3d(-8px, -8px, 0);
 }
 
 
 /* add your css of buttons from here  */
 
-/* button-1 or name of button start  */
-    /* css here */
-/* button-1 or name of button end */
+/* button-7 ... or name of button start  */
+/* css here */
+/* button-7... or name of button end */
