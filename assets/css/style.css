@@ -19,6 +19,17 @@ body {
     color: var(--forground-main-color);
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgb(64, 63, 63);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 11px;
+    /* -webkit-box-shadow: inset -5px 0px 29px 0 #ec4896; */
+    background-color:rgb(99, 99, 99);
+}
+
 main{
     display: flex;
     align-items: center;
@@ -73,3 +84,5 @@ footer > a{
     color: white;
     font-weight: 700;
 }
+
+
