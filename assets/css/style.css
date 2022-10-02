@@ -50,10 +50,10 @@ main{
     height: 18rem;
     background-color: var(--bg-btn-card);
     transition: 0.4s;
+    border-radius: 30px;
 }
 .button-container:hover {
     transform: translateY(-5px);
-    border: 1px solid white;
 }
 
 .container {
