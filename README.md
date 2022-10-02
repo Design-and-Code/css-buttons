@@ -1,32 +1,49 @@
-# custom-buttons
-> A Collection of various hover effects for buttons made completely in HTML and CSS.
+# CSS Buttons
+> A collection of simple and subtle CSS-only hover animations for buttons. ✨
 
-Initial Design:
-![buttons](https://user-images.githubusercontent.com/65373279/193439913-9c3f65e8-a1ce-4f65-ae75-bc4d398ca244.png)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://github.com/Design-and-Code/css-buttons)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/Design-and-Code/css-buttons)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103?style=flat)](https://github.com/Design-and-Code/css-buttons)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Design-and-Code/css-buttons)
+[![issues](https://img.shields.io/github/issues/Design-and-Code/css-buttons?color=6CC621)](https://github.com/Design-and-Code/css-buttons)
 
+![Design](https://user-images.githubusercontent.com/65373279/193451212-96c59af4-ff8b-437a-b8da-c4d1ab4a1cc6.png)
 
-# Some rule for Contribute 
+# Some rules to Contribute:
 
-### Pls Follow name conversation for btn classes like btn-1/button-1 etc
-### Do not change default btns maked as  button-def classes 
+- Please follow naming convention for button classes.
+- Do not change default buttons maked as ` button-def ` class.
+- Do not change any code in `index.html`  except button section.
+- Do not change any code in `assets` folder.
 
-#
+# How to contribute by adding more buttons
 
-# How to add Buttons 
-
-1. Fork repo and clone it
-2. open index.html file 
-3. write/past your buttons code there
-4. and css files on buttons.css file
-5. make sure other buttons does not change ( for that use proper name conversation  )
+1. Fork repo and clone it.
+2. Add your HTML code in [index.html](https://github.com/Design-and-Code/css-buttons/blob/main/index.html) file.
+3. Add CSS code in [buttons.css](https://github.com/Design-and-Code/css-buttons/blob/main/buttons/buttons.css) file.
+4. Make sure you do not change other buttons code ( for that use proper name conversation  ).
+5. While opening PR full screenshort.
 
 #### Demo code 
 ```html
-    <div class="button-container flex align-items-center justify-content-center">
-                <!--your buttons here eg
-                <button class="button-{Button number} button--pan"><span>Example btn</span></button>
+    <div class="button-container">
+            <!-- add your buttons here eg
+            <button class="button-def button-{number}"><span> Example Button </span></button>
             </div>
-                -->
-
+            -->
     </div>
+```
+
+### Folder Structure
+
+```
+root
+├── assets
+│   ├── script.js
+│   └── css
+│       └── style.css
+│   
+├── buttons
+│   └── buttons.css
+└── index.html
 ```
