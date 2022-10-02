@@ -93,41 +93,6 @@ a:focus-visible {
 	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
-.button--shiny-gradient {
-	color: #fff;
-	font-size: 1.4rem;
-	font-weight: 600;
-	border-radius: 0.8rem;
-	padding: 1.5rem 2.8rem;
-	background-color: rgb(110, 217, 249);
-	background: linear-gradient(
-		165deg,
-		rgb(32, 114, 247) 20%,
-		rgb(110, 217, 249) 45%,
-		rgb(32, 114, 247) 80%
-	  );
-	background-size: 350%;
-	background-position: left;
-	box-shadow: 
-		0 0 0.2rem rgba(110, 217, 249, 0.8),
-		0 0.2rem 0.8rem -0.2rem rgba(32, 114, 247, 0.8),
-		inset 0.5rem 0.5rem 0.5rem rgba(110, 217, 249, 0.6),
-		inset -0.5rem -0.5rem 0.5rem rgba(32, 114, 247, 0.6);
-
-	transition: background-position 400ms ease-in-out,
-	box-shadow 600ms ease-in-out;
-	-webkit-transition: background-position 400ms ease-in-out,
-	-webkit-box-shadow 600ms ease-in-out;
-}
-
-.button--shiny-gradient:hover {
-	background-position: right;
-	box-shadow: 0 0.5rem 2rem rgba(110, 217, 249, 0.8),
-	  0 2rem 2rem -2.5rem rgba(32, 114, 247, 0.8),
-	  inset 0.6rem 0.6rem 0.6rem rgba(110, 217, 249, 0.8),
-	  inset -0.6rem -0.6rem 0.6rem rgba(4, 86, 219, 0.8);
-  }
-
 @keyframes MoveUpInitial {
 	to {
 		transform: translate3d(0,-105%,0);
@@ -292,6 +257,45 @@ a:focus-visible {
 
 
 /* add your css of buttons from here  */
+
+.button--shiny-gradient * {
+	font-family: Verdana, Geneva, sans-serif !important;
+	color: white;
+}
+.button--shiny-gradient  {
+	font-size: 1.2rem;
+	font-weight: 600;
+	border: none;
+	border-radius: 0.8rem;
+	padding: 1.5rem 2.8rem;
+	background-color: rgb(110, 217, 249);
+	background: linear-gradient(
+		165deg,
+		rgb(32, 114, 247) 20%,
+		rgb(110, 217, 249) 45%,
+		rgb(32, 114, 247) 80%
+	  );
+	background-size: 350%;
+	background-position: left;
+	box-shadow: 
+		0 0 0.2rem rgba(110, 217, 249, 0.8),
+		0 0.2rem 0.8rem -0.2rem rgba(32, 114, 247, 0.8),
+		inset 0.5rem 0.5rem 0.5rem rgba(110, 217, 249, 0.6),
+		inset -0.5rem -0.5rem 0.5rem rgba(32, 114, 247, 0.6);
+
+	transition: background-position 400ms ease-in-out,
+	box-shadow 600ms ease-in-out;
+	-webkit-transition: background-position 400ms ease-in-out,
+	-webkit-box-shadow 600ms ease-in-out;
+}
+
+.button--shiny-gradient:hover {
+	background-position: right;
+	box-shadow: 0 0.5rem 2rem rgba(110, 217, 249, 0.8),
+	  0 2rem 2rem -2.5rem rgba(32, 114, 247, 0.8),
+	  inset 0.6rem 0.6rem 0.6rem rgba(110, 217, 249, 0.8),
+	  inset -0.6rem -0.6rem 0.6rem rgba(4, 86, 219, 0.8);
+  }
 
 /* button-1 or name of button start  */
     /* css here */
