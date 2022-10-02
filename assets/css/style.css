@@ -1,30 +1,63 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     box-sizing: boder-box
 }
-:root{
-    --bg-btn-card: #f2f2f6;
+
+:root {
+    --bg-btn-card: #212121;
+    --forground-main-color: rgb(255 255 255 / 1);
+    --background-main-color: rgb(12 12 12 / 1);
 }
-body,html{
+
+body {
     padding: 0 20px;
-    height: 100vh;
     max-width: 1200px;
     margin: 20px auto;
+    background-color: var(--background-main-color);
+    color: var(--forground-main-color);
+}
+
+.padding-top-bottom {
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-col {
+    flex-direction: column;
+}
+
+.font-3rem {
+    font-size: 3rem;
+}
+
+.font-2rem {
+    font-size: 2rem;
 }
 
 .container {
-    display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     margin: 20px 0;
 }
 
 .button-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 18rem;
     height: 18rem;
     background-color: var(--bg-btn-card);
