@@ -5,29 +5,27 @@
     box-sizing: boder-box
 }
 :root{
-    --bg-btn-card: #eeeef8;
+    --bg-btn-card: #f2f2f6;
 }
-body {
-    margin: auto;
+body,html{
     padding: 0 20px;
-    height: 100%;
-}
-
-header{
-    margin: 2rem 0;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
+    margin: 20px 0;
 }
 
 .button-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     background-color: var(--bg-btn-card);
 }
