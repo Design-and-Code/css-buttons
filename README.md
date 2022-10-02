@@ -28,7 +28,7 @@
 ```html
     <div class="button-container">
             <!-- add your buttons here eg
-            <button class="button-def button-{number}"><span> Example Button </span></button>
+            <button class="button-{number}"><span> Example Button </span></button>
             </div>
             -->
     </div>
