@@ -1,4 +1,3 @@
-
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible */
 a:focus,
 button:focus {
@@ -6,6 +5,7 @@ button:focus {
 	 that don't support :focus-visible */
 	outline: none;
 }
+
 a:focus-visible,
 button:focus-visible {
 	/* Draw a very noticeable focus style for
@@ -19,6 +19,213 @@ a:focus-visible {
 	background: none;
 }
 
+/* Contributor - AmitSahoo45 */
+/* Button designing starts from here */
+.buttonDesign_01 {
+	background-color: white;
+	color: black;
+	border-radius: 10em;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 1em 2em;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	border: 1px solid black;
+	box-shadow: 0 0 0 0 black;
+}
+
+.buttonDesign_01:hover {
+	transform: translateY(-4px) translateX(-2px);
+	box-shadow: 2px 5px 0 0 black;
+}
+
+.buttonDesign_01:active {
+	transform: translateY(2px) translateX(1px);
+	box-shadow: 0 0 0 0 black;
+}
+
+.buttonDesign_02 {
+	width: fit-content;
+	height: 45px;
+	background: #ffffff0d;
+	border-radius: 8px;
+	border: 2px solid #334b79;
+	font-size: 15px;
+	font-weight: bold;
+	color: #334b79;
+	-webkit-transition: 0.5s all ease;
+	transition: 0.5s all ease;
+	position: relative;
+	overflow: hidden;
+	padding: 10px 25px;
+	z-index: 1;
+}
+
+.buttonDesign_02:before {
+	width: 50%;
+	height: 100%;
+	content: "";
+	margin: auto;
+	position: absolute;
+	top: 0%;
+	left: -50%;
+	background: #334b79;
+	transition: all 0.5s ease;
+	z-index: -1;
+}
+
+.buttonDesign_02:after {
+	width: 50%;
+	height: 100%;
+	content: "";
+	margin: auto;
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	background: #334b79;
+	transition: all 0.5s ease;
+	z-index: -1;
+}
+
+.buttonDesign_02:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.buttonDesign_02:hover:before {
+	top: 0;
+	left: 0;
+}
+
+.buttonDesign_02:hover:after {
+	top: 0;
+	left: 50%;
+}
+
+.buttonDesign_03 {
+	--color: #0077ff;
+	font-family: inherit;
+	display: inline-block;
+	width: 6em;
+	height: 2.6em;
+	line-height: 2.5em;
+	overflow: hidden;
+	margin: 20px;
+	font-size: 17px;
+	z-index: 1;
+	color: var(--color);
+	border: 2px solid var(--color);
+	border-radius: 6px;
+	position: relative;
+}
+
+.buttonDesign_03::before {
+	position: absolute;
+	content: "";
+	background: var(--color);
+	width: 150px;
+	height: 200px;
+	z-index: -1;
+	border-radius: 50%;
+}
+
+.buttonDesign_03:hover {
+	color: white;
+}
+
+.buttonDesign_03:before {
+	top: 100%;
+	left: 100%;
+	transition: .3s all;
+}
+
+.buttonDesign_03:hover::before {
+	top: -30px;
+	left: -30px;
+}
+
+
+.buttonDesign_04 {
+	background: #2389e9;
+	padding: 30px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	transition: all .5s ease-in-out;
+}
+
+.buttonDesign_04:hover {
+	border-radius: 50%;
+	transition: all .5s ease-in-out;
+}
+
+.buttonDesign_04:hover:before {
+	margin-left: 0%;
+	transform: rotate(24deg);
+}
+
+.buttonDesign_04::before {
+	content: "";
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNTczLjE4IDE5OC42MnYwbC0zOTYuMDkgNjMuNzE5Yy03Ljc1IDAuODU5MzgtOS40NzI3IDExLjE5NS0zLjQ0NTMgMTUuNWw5Ny4zMDEgNjguODgzLTE1LjUgMTEyLjhjLTAuODU5MzggNy43NSA3Ljc1IDEyLjkxNCAxMy43NzcgNy43NWw1NS4xMDktNDQuNzczIDI2LjY5MSAxMjQuODVjMS43MjI3IDcuNzUgMTEuMTk1IDkuNDcyNyAxNS41IDIuNTgybDIxNS4yNy0zMzguMzljMy40NDE0LTYuMDI3My0xLjcyNjYtMTMuNzc3LTguNjEzMy0xMi45MTR6bS0zNzIuODQgNzYuNjMzIDMxMy40Mi00OS45NDEtMjMzLjM0IDEwNy42M3ptNzQuMDUxIDE2NS4zMiAxMi45MTQtOTIuMTMzYzgwLjkzOC0zNy4wMjcgMTM5LjQ5LTY0LjU3OCAyMjkuMDQtMTA1LjkxLTEuNzE4OCAxLjcyMjctMC44NTkzNyAwLjg1OTM4LTI0MS45NSAxOTguMDR6bTg4LjY4OCA4Mi42Ni0yNC4xMDktMTEyLjggMTk5Ljc3LTE2Mi43NHoiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==");
+	height: 50px;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 50px;
+	transition: all .9s ease-in-out;
+	background-size: 100%;
+}
+
+.buttonDesign_05 {
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 8px;
+	border-radius: 30px;
+	border: none;
+	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.buttonDesign_05>* {
+	display: inline-block;
+	transition: all ease-in-out .5s;
+}
+
+.btn__visible {
+	padding: 1.2rem 3rem;
+	text-align: center;
+}
+
+.btn__invisible {
+	width: 100%;
+	position: absolute;
+	padding: 1.2rem 0;
+	left: 0;
+	top: -100%;
+}
+
+.buttonDesign_05:hover {
+	background-image: linear-gradient(160deg, #f093fb 0%, #f5576c 100%);
+}
+
+.buttonDesign_05:hover .btn__visible {
+	transform: translateY(100%);
+}
+
+.buttonDesign_05:hover .btn__invisible {
+	top: 0;
+}
+
+.buttonDesign_05:focus {
+	outline: none;
+}
+
+/* Button Designing ends here */
 
 .button-def {
 	pointer-events: auto;
@@ -63,7 +270,7 @@ a:focus-visible {
 }
 
 .button--pan:hover::before {
-	transform: translate3d(0,-100%,0);
+	transform: translate3d(0, -100%, 0);
 }
 
 .button--hyperion {
@@ -80,31 +287,32 @@ a:focus-visible {
 	position: relative;
 }
 
-.button--hyperion > span {
+.button--hyperion>span {
 	overflow: hidden;
 }
 
-.button--hyperion > span > span {
+.button--hyperion>span>span {
 	overflow: hidden;
 	mix-blend-mode: difference;
 }
 
-.button--hyperion:hover > span > span {
+.button--hyperion:hover>span>span {
 	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
 @keyframes MoveUpInitial {
 	to {
-		transform: translate3d(0,-105%,0);
+		transform: translate3d(0, -105%, 0);
 	}
 }
 
 @keyframes MoveUpEnd {
 	from {
-		transform: translate3d(0,100%,0);
+		transform: translate3d(0, 100%, 0);
 	}
+
 	to {
-		transform: translate3d(0,0,0);
+		transform: translate3d(0, 0, 0);
 	}
 }
 
@@ -116,7 +324,7 @@ a:focus-visible {
 }
 
 .button--hyperion:hover::before {
-	transform: scale3d(0,1,1);
+	transform: scale3d(0, 1, 1);
 	transform-origin: 0% 50%;
 }
 
@@ -146,7 +354,7 @@ a:focus-visible {
 }
 
 .button--mimas:hover::before {
-	transform: translate3d(100%,0,0);
+	transform: translate3d(100%, 0, 0);
 }
 
 .button--atlas {
@@ -154,11 +362,11 @@ a:focus-visible {
 	font-weight: 500;
 }
 
-.button--atlas > span {
+.button--atlas>span {
 	display: inline-block;
 }
 
-.button--atlas:hover > span {
+.button--atlas:hover>span {
 	opacity: 0;
 }
 
@@ -215,12 +423,12 @@ a:focus-visible {
 	border: 2px solid #000;
 }
 
-.button--kari > span {
+.button--kari>span {
 	display: inline-block;
 	transition: opacity 0.1s;
 }
 
-.button--kari:hover > span {
+.button--kari:hover>span {
 	opacity: 0;
 }
 
@@ -256,8 +464,10 @@ a:focus-visible {
 }
 
 
+
+
 /* add your css of buttons from here  */
 
 /* button-1 or name of button start  */
-    /* css here */
+/* css here */
 /* button-1 or name of button end */

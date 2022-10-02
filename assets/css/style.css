@@ -62,3 +62,7 @@ body {
     height: 18rem;
     background-color: var(--bg-btn-card);
 }
+
+.bg-white{
+    background: #FFFFFF;
+}
