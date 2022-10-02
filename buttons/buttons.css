@@ -1,16 +1,9 @@
 
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible */
-a:focus,
-button:focus {
-	/* Provide a fallback style for browsers
-	 that don't support :focus-visible */
+a:focus, button:focus {
 	outline: none;
 }
 a:focus-visible,
 button:focus-visible {
-	/* Draw a very noticeable focus style for
-	 keyboard-focus on browsers that do support
-	 :focus-visible */
 	outline: 2px solid #443ffc;
 	outline-offset: 3px;
 }
@@ -18,7 +11,6 @@ button:focus-visible {
 a:focus-visible {
 	background: none;
 }
-
 
 .button-def {
 	pointer-events: auto;
@@ -42,7 +34,7 @@ a:focus-visible {
 	height: 100%;
 }
 
-.button--pan {
+.button-pan {
 	font-family: aktiv-grotesk-extended, sans-serif;
 	font-weight: 700;
 	border: 2px solid #000;
@@ -51,22 +43,22 @@ a:focus-visible {
 	color: #fff;
 }
 
-.button--pan span {
+.button-pan span {
 	position: relative;
 	mix-blend-mode: difference;
 }
 
-.button--pan::before {
+.button-pan::before {
 	content: '';
 	background: rgb(129, 120, 255);
 	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
-.button--pan:hover::before {
+.button-pan:hover::before {
 	transform: translate3d(0,-100%,0);
 }
 
-.button--hyperion {
+.button-hyperion {
 	font-family: input-mono-narrow, monospace;
 	font-weight: 500;
 	padding: 1rem 1.5rem;
@@ -75,21 +67,21 @@ a:focus-visible {
 	color: #fff;
 }
 
-.button--hyperion span {
+.button-hyperion span {
 	display: block;
 	position: relative;
 }
 
-.button--hyperion > span {
+.button-hyperion > span {
 	overflow: hidden;
 }
 
-.button--hyperion > span > span {
+.button-hyperion > span > span {
 	overflow: hidden;
 	mix-blend-mode: difference;
 }
 
-.button--hyperion:hover > span > span {
+.button-hyperion:hover > span > span {
 	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
@@ -108,19 +100,19 @@ a:focus-visible {
 	}
 }
 
-.button--hyperion::before {
+.button-hyperion::before {
 	content: '';
 	background: #000;
 	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 	transform-origin: 100% 50%;
 }
 
-.button--hyperion:hover::before {
+.button-hyperion:hover::before {
 	transform: scale3d(0,1,1);
 	transform-origin: 0% 50%;
 }
 
-.button--mimas {
+.button-mimas {
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
 	font-weight: 700;
@@ -131,12 +123,12 @@ a:focus-visible {
 	background: #e7e7e7;
 }
 
-.button--mimas span {
+.button-mimas span {
 	position: relative;
 	mix-blend-mode: difference;
 }
 
-.button--mimas::before {
+.button-mimas::before {
 	content: '';
 	background: #000;
 	width: 120%;
@@ -145,20 +137,20 @@ a:focus-visible {
 	transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
-.button--mimas:hover::before {
+.button-mimas:hover::before {
 	transform: translate3d(100%,0,0);
 }
 
-.button--atlas {
+.button-atlas {
 	font-family: signo, sans-serif;
 	font-weight: 500;
 }
 
-.button--atlas > span {
+.button-atlas > span {
 	display: inline-block;
 }
 
-.button--atlas:hover > span {
+.button-atlas:hover > span {
 	opacity: 0;
 }
 
@@ -184,7 +176,7 @@ a:focus-visible {
 	opacity: 0;
 }
 
-.button--atlas:hover .marquee__inner {
+.button-atlas:hover .marquee__inner {
 	animation-play-state: running;
 	opacity: 1;
 	transition-duration: 0.4s;
@@ -207,7 +199,7 @@ a:focus-visible {
 	}
 }
 
-.button--kari {
+.button-kari {
 	font-family: freight-display-pro, serif;
 	font-weight: 900;
 	font-size: 1.25rem;
@@ -215,33 +207,33 @@ a:focus-visible {
 	border: 2px solid #000;
 }
 
-.button--kari > span {
+.button-kari > span {
 	display: inline-block;
 	transition: opacity 0.1s;
 }
 
-.button--kari:hover > span {
+.button-kari:hover > span {
 	opacity: 0;
 }
 
-.button--kari .marquee {
+.button-kari .marquee {
 	transform: rotate(-2.75deg);
 }
 
-.button--kari:hover .marquee__inner {
+.button-kari:hover .marquee__inner {
 	animation-play-state: running;
 	opacity: 1;
 	transition-duration: 0.6s;
 }
 
-.button--pandora {
+.button-pandora {
 	background: #000;
 	font-weight: 700;
 	padding: 0;
 	border-radius: 5px;
 }
 
-.button--pandora span {
+.button-pandora span {
 	display: block;
 	background: #a7a7a7;
 	padding: 1.5rem 2rem;
@@ -251,7 +243,7 @@ a:focus-visible {
 	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
-.button--pandora:hover span {
+.button-pandora:hover span {
 	transform: translate3d(-8px, -8px, 0);
 }
 
