@@ -5,7 +5,12 @@
     --font-color-black: rgb(0 0 0 / 1);
 }
 
-
+button {
+    transition: transform 0.3s;
+}
+button:active {
+    transform: scale(0.95);
+}
 
 a:focus,
 button:focus {
@@ -313,4 +318,3 @@ a:focus-visible {
 	  inset 0.6rem 0.6rem 0.6rem rgba(110, 217, 249, 0.8),
 	  inset -0.6rem -0.6rem 0.6rem rgba(4, 86, 219, 0.8);
   }
-
