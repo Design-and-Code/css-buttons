@@ -268,7 +268,7 @@ a:focus-visible {
 
 
 /* button-1 or name of button start  */
-    /* css here */
+/* css here */
 /* button-1 or name of button end */
 
 /* button-7 ... or name of button start  */
@@ -276,41 +276,104 @@ a:focus-visible {
 /* button-7... or name of button end */
 
 .button--shiny-gradient * {
-	font-family: Verdana, Geneva, sans-serif !important;
-	color: white;
+    font-family: Verdana, Geneva, sans-serif !important;
+    color: white;
 }
-.button--shiny-gradient  {
-	font-size: 1.2rem;
-	font-weight: 600;
-	border: none;
-	border-radius: 0.8rem;
-	padding: 1.5rem 2.8rem;
-	background-color: rgb(110, 217, 249);
-	background: linear-gradient(
-		165deg,
-		rgb(32, 114, 247) 20%,
-		rgb(110, 217, 249) 45%,
-		rgb(32, 114, 247) 80%
-	  );
-	background-size: 350%;
-	background-position: left;
-	box-shadow: 
-		0 0 0.2rem rgba(110, 217, 249, 0.8),
-		0 0.2rem 0.8rem -0.2rem rgba(32, 114, 247, 0.8),
-		inset 0.5rem 0.5rem 0.5rem rgba(110, 217, 249, 0.6),
-		inset -0.5rem -0.5rem 0.5rem rgba(32, 114, 247, 0.6);
 
-	transition: background-position 400ms ease-in-out,
-	box-shadow 600ms ease-in-out;
-	-webkit-transition: background-position 400ms ease-in-out,
-	-webkit-box-shadow 600ms ease-in-out;
+.button--shiny-gradient {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.8rem;
+    padding: 1.5rem 2.8rem;
+    background-color: rgb(110, 217, 249);
+    background: linear-gradient(165deg,
+            rgb(32, 114, 247) 20%,
+            rgb(110, 217, 249) 45%,
+            rgb(32, 114, 247) 80%);
+    background-size: 350%;
+    background-position: left;
+    box-shadow:
+        0 0 0.2rem rgba(110, 217, 249, 0.8),
+        0 0.2rem 0.8rem -0.2rem rgba(32, 114, 247, 0.8),
+        inset 0.5rem 0.5rem 0.5rem rgba(110, 217, 249, 0.6),
+        inset -0.5rem -0.5rem 0.5rem rgba(32, 114, 247, 0.6);
+
+    transition: background-position 400ms ease-in-out,
+        box-shadow 600ms ease-in-out;
+    -webkit-transition: background-position 400ms ease-in-out,
+        -webkit-box-shadow 600ms ease-in-out;
 }
 
 .button--shiny-gradient:hover {
-	background-position: right;
-	box-shadow: 0 0.5rem 2rem rgba(110, 217, 249, 0.8),
-	  0 2rem 2rem -2.5rem rgba(32, 114, 247, 0.8),
-	  inset 0.6rem 0.6rem 0.6rem rgba(110, 217, 249, 0.8),
-	  inset -0.6rem -0.6rem 0.6rem rgba(4, 86, 219, 0.8);
-  }
+    background-position: right;
+    box-shadow: 0 0.5rem 2rem rgba(110, 217, 249, 0.8),
+        0 2rem 2rem -2.5rem rgba(32, 114, 247, 0.8),
+        inset 0.6rem 0.6rem 0.6rem rgba(110, 217, 249, 0.8),
+        inset -0.6rem -0.6rem 0.6rem rgba(4, 86, 219, 0.8);
+}
 
+/* button-9 start  */
+
+.button-9 {
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1566150783936-23096928b65b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1296&q=60);
+    justify-content: center;
+    margin: 60px auto;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: star 1s infinite;
+
+}
+
+@keyframes star {
+    0% {
+        border-top: 6px solid white;
+    }
+
+    25% {
+        border-right: 6px solid white;
+    }
+
+    50% {
+        border-bottom: 6px solid white;
+    }
+
+    100% {
+        border-left: 6px solid white;
+    }
+}
+
+.button-9 :hover {
+    background-image: url(https://images.unsplash.com/photo-1566150783936-23096928b65b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1296&q=60);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: anime 3s infinite;
+    transform: rotate(120deg);
+}
+
+@keyframes anime {
+    0% {
+        border-top: 4px solid white;
+        transform: rotate(90deg);
+    }
+
+    25% {
+        border-right: 4px solid white;
+        transform: rotate(180deg);
+    }
+
+    50% {
+        border-bottom: 4px solid white;
+        transform: rotate(270deg);
+    }
+
+    100% {
+        border-left: 4px solid white;
+        transform: rotate(360deg);
+    }
+}
+
+/* Button-9 ends */
