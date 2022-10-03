@@ -375,7 +375,7 @@ a:focus-visible {
 
 /* new buttons */
 
-.myBtn1 {
+.mahi-btn-1 {
     padding: 1rem 2.5rem 1rem 2.5rem;
     background: none;
     color: white;
@@ -383,11 +383,11 @@ a:focus-visible {
     border-radius: 15px;
 }
 
-.myBtn1:hover {
+.mahi-btn-1:hover {
     background-color: #7F8487;
 }
 
-.myBtn2 {
+.mahi-btn-2 {
     padding: 1rem 2.5rem 1rem 2.5rem;
     background: none;
     color: white;
@@ -395,13 +395,13 @@ a:focus-visible {
     
     transition:  0.5s ease, color 1s ease;
 }
-.myBtn2:hover {
+.mahi-btn-2:hover {
     background-color: #FBF2CF;
     color: black;
     font-weight: bold;
 }
 
-.myBtn3 {
+.mahi-btn-3 {
     padding: 1rem 2rem;
 	background: #638aab;
     border-radius: 3px;
@@ -409,23 +409,24 @@ a:focus-visible {
 	box-shadow: 0 6px #323232;
 	transition: none;
 }
-.myBtn3:hover {
+.mahi-btn-3:hover {
 	box-shadow: 0 4px #323232;
 	top: 2px;
 }
 
-.myBtn4 {
+.mahi-btn-4 {
     padding: 1rem 2rem;
-    background-color: transparent;
+    background: transparent;
     border: 3px solid #5F6F94;
     color: #fff;
     transition: .3s;
 }
 
-.myBtn4:hover {
+.mahi-btn-4:hover {
     animation: pulse 1s infinite;
     transition: .3s;
 }
+
 
 @keyframes pulse {
     0% {
