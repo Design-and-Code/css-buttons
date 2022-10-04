@@ -1,4 +1,4 @@
-## Have you read the Contribution Guidelines? If not, check [CONTRIBUTING.md](https://github.com/BlankCoders/GoogleKickStart2020_Solutions/blob/master/CONTRIBUTING.md) file first.
+## Have you read the Contribution Guidelines? If not, check [README.md](https://github.com/Design-and-Code/css-buttons#some-rules-to-contribute) file first.
 
 (Write your answer here.)
 
