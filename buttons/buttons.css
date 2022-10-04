@@ -439,3 +439,38 @@ a:focus-visible {
       transform: scale(1);
     }
   }
+
+.button-9
+{
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1566150783936-23096928b65b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1296&q=60);
+    justify-content: center;
+    margin : 60px auto;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+@keyframes star {
+    0%{
+        border-top: 4px solid white;
+    }
+    25%{
+        border-right: 4px solid white;
+    }
+    50%{
+        border-bottom: 4px solid white;
+    }
+    100%{
+        border-left: 4px solid white;
+    }
+}
+.button-9 :hover{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    animation: star 1s infinite;
+}
+
+/*  CSS FOR BUTTON 9 ENDS */
