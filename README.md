@@ -11,7 +11,7 @@
 
 # Some rules to follow when Contributing:
 
-- Please follow naming convention for button classes.
+- Please follow naming convention for button classes. (Eg. yourname-btn-index or btn-yourname-index)
 - Do not change default buttons maked with the ` button-def ` class.
 - Do not change any code in the `index.html` file except for button section.
 - Do not change any code in the `assets` folder.
@@ -21,7 +21,7 @@
 1. Fork the repo and clone it.
 2. Add your HTML code in the [index.html](https://github.com/Design-and-Code/css-buttons/blob/main/index.html) file.
 3. Add your CSS code in the [buttons.css](https://github.com/Design-and-Code/css-buttons/blob/main/buttons/buttons.css) file.
-4. Make sure you do not change any other button's code (for that, use the correct naming conventions).
+4. Make sure you do not change any other button's code (for that, use the correct naming conventions - eg. yourname-btn-index or btn-yourname-index).
 5. When you open the PR, please include a full screenshot.
 
 #### Demo code 
