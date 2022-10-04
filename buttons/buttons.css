@@ -473,4 +473,23 @@ a:focus-visible {
     animation: star 1s infinite;
 }
 
+.button-10{
+    padding: 20px;
+    border: solid green;
+    background-color: black;
+    border-radius: 8px;
+    font-size: 130%;
+    color: orange;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.button-10:hover{
+    border: none;
+    font-size: 200%;
+    color: black;
+    background: linear-gradient(orange,white,green);
+    /* transition-duration: 0.5s; */
+    transition: 1s;
+    padding: 35px;
+}
 /*  CSS FOR BUTTON 9 ENDS */
