@@ -375,7 +375,7 @@ a:focus-visible {
 
 
 
-.button {
+.button-Anurag {
     align-items: center;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     border: 0;
@@ -399,12 +399,12 @@ a:focus-visible {
     cursor: pointer;
   }
   
-  .button:active,
-  .button:hover {
+  .button-Anurag:active,
+  .button-Anurag:hover {
     outline: 0;
   }
   
-  .button span {
+  .button-Anurag span {
     background-color: rgb(22, 17, 61);
     padding: 16px 24px;
     border-radius: 6px;
@@ -413,12 +413,12 @@ a:focus-visible {
     transition: 300ms;
   }
   
-  .button:hover span {
+  .button-Anurag:hover span {
     background: none;
   }
   
   @media (min-width: 768px) {
-    .button {
+    .button-Anurag {
       font-size: 24px;
       min-width: 196px;
     }
