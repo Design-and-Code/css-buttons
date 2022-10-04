@@ -373,8 +373,72 @@ a:focus-visible {
     100% { background-position: 0 0; }
 }
 
+/* new buttons */
 
-/* CSS For BUTTON 9 STARTS */
+.mahi-btn-1 {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: none;
+    color: white;
+    border: 1px solid #787878;
+    border-radius: 15px;
+}
+
+.mahi-btn-1:hover {
+    background-color: #7F8487;
+}
+
+.mahi-btn-2 {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: none;
+    color: white;
+    border: 1px solid #FBF2CF;
+    
+    transition:  0.5s ease, color 1s ease;
+}
+.mahi-btn-2:hover {
+    background-color: #FBF2CF;
+    color: black;
+    font-weight: bold;
+}
+
+.mahi-btn-3 {
+    padding: 1rem 2rem;
+	background: #638aab;
+    border-radius: 3px;
+	color: #fff;
+	box-shadow: 0 6px #323232;
+	transition: none;
+}
+.mahi-btn-3:hover {
+	box-shadow: 0 4px #323232;
+	top: 2px;
+}
+
+.mahi-btn-4 {
+    padding: 1rem 2rem;
+    background: transparent;
+    border: 3px solid #5F6F94;
+    color: #fff;
+    transition: .3s;
+}
+
+.mahi-btn-4:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
 
 .button-9
 {
