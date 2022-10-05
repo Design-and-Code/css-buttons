@@ -1,266 +1,266 @@
 :root {
-    --btn-bg-color: rgb(255 255 255 / 1);
-    --btn-bg-color-hover: rgb(129 120 255 / 1);
-    --font-color-white: rgb(255 255 255 / 1);
-    --font-color-black: rgb(0 0 0 / 1);
+	--btn-bg-color: rgb(255 255 255 / 1);
+	--btn-bg-color-hover: rgb(129 120 255 / 1);
+	--font-color-white: rgb(255 255 255 / 1);
+	--font-color-black: rgb(0 0 0 / 1);
 }
 
 
 
 a:focus,
 button:focus {
-    outline: none;
+	outline: none;
 }
 
 a:focus-visible,
 button:focus-visible {
-    outline: 2px solid #443ffc;
-    outline-offset: 3px;
+	outline: 2px solid #443ffc;
+	outline-offset: 3px;
 }
 
 a:focus-visible {
-    background: none;
+	background: none;
 }
 
 .button-def {
-    pointer-events: auto;
-    cursor: pointer;
-    background: var(--btn-bg-color);
-    border: none;
-    padding: 1.5rem 3rem;
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    position: relative;
-    display: inline-block;
+	pointer-events: auto;
+	cursor: pointer;
+	background: var(--btn-bg-color);
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
 }
 
 .button-def::before,
 .button-def::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .button-1 {
-    font-family: aktiv-grotesk-extended, sans-serif;
-    font-weight: 700;
-    border: 2px solid #000;
-    border-radius: 3rem;
-    overflow: hidden;
-    color: var(--font-color-black);
-    background-color: var(--btn-bg-color-hover);
+	font-family: aktiv-grotesk-extended, sans-serif;
+	font-weight: 700;
+	border: 2px solid #000;
+	border-radius: 3rem;
+	overflow: hidden;
+	color: var(--font-color-black);
+	background-color: var(--btn-bg-color-hover);
 
 }
 
 .button-1 span {
-    position: relative;
+	position: relative;
 }
 
 .button-1::before {
-    content: '';
-    background: var(--btn-bg-color);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+	content: '';
+	background: var(--btn-bg-color);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .button-1:hover::before {
-    transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
 }
 
 .button-2 {
-    font-family: input-mono-narrow, monospace;
-    font-weight: 500;
-    padding: 1rem 1.5rem;
-    border: 1px solid #000;
-    overflow: hidden;
-    background-color: var(--btn-bg-color-hover);
+	font-family: input-mono-narrow, monospace;
+	font-weight: 500;
+	padding: 1rem 1.5rem;
+	border: 1px solid #000;
+	overflow: hidden;
+	background-color: var(--btn-bg-color-hover);
 }
 
 .button-2 span {
-    display: block;
-    position: relative;
+	display: block;
+	position: relative;
 }
 
 .button-2>span {
-    color: var(--font-color-black);
+	color: var(--font-color-black);
 
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .button-2>span>span {
-    color: var(--font-color-black);
-    overflow: hidden;
+	color: var(--font-color-black);
+	overflow: hidden;
 }
 
 .button-2:hover>span>span {
-    color: var(--font-color-black);
-    animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+	color: var(--font-color-black);
+	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
 @keyframes MoveUpInitial {
-    to {
-        transform: translate3d(0, -105%, 0);
-    }
+	to {
+		transform: translate3d(0, -105%, 0);
+	}
 }
 
 @keyframes MoveUpEnd {
-    from {
-        transform: translate3d(0, 100%, 0);
-    }
+	from {
+		transform: translate3d(0, 100%, 0);
+	}
 
-    to {
-        transform: translate3d(0, 0, 0);
-    }
+	to {
+		transform: translate3d(0, 0, 0);
+	}
 }
 
 .button-2::before {
-    content: '';
-    background: var(--btn-bg-color);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-    transform-origin: 100% 50%;
+	content: '';
+	background: var(--btn-bg-color);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+	transform-origin: 100% 50%;
 }
 
 .button-2:hover::before {
-    transform: scale3d(0, 1, 1);
-    transform-origin: 0% 50%;
+	transform: scale3d(0, 1, 1);
+	transform-origin: 0% 50%;
 }
 
 .button-3 {
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
-    font-weight: 700;
-    font-size: 0.85rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
-    color: var(--font-color-black);
-    background-color: var(--btn-bg-color-hover);
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-weight: 700;
+	font-size: 0.85rem;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	color: var(--font-color-black);
+	background-color: var(--btn-bg-color-hover);
 }
 
 .button-3 span {
-    position: relative;
+	position: relative;
 
 }
 
 .button-3::before {
-    content: '';
-    background: var(--btn-bg-color);
-    width: 120%;
-    left: -10%;
-    transform: skew(30deg);
-    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+	content: '';
+	background: var(--btn-bg-color);
+	width: 120%;
+	left: -10%;
+	transform: skew(30deg);
+	transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
 .button-3:hover::before {
-    transform: translate3d(100%, 0, 0);
+	transform: translate3d(100%, 0, 0);
 }
 
 .button-4 {
-    font-family: signo, sans-serif;
-    font-weight: 500;
+	font-family: signo, sans-serif;
+	font-weight: 500;
 }
 
 .button-4>span {
 
-    display: inline-block;
+	display: inline-block;
 }
 
 .button-4:hover>span {
-    opacity: 0;
+	opacity: 0;
 }
 
 .marquee {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	pointer-events: none;
 }
 
 .marquee__inner {
-    width: fit-content;
-    display: flex;
-    position: relative;
-    --offset: 1rem;
-    --move-initial: calc(-25% + var(--offset));
-    --move-final: calc(-50% + var(--offset));
-    transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee 1s linear infinite;
-    animation-play-state: paused;
-    opacity: 0;
+	width: fit-content;
+	display: flex;
+	position: relative;
+	--offset: 1rem;
+	--move-initial: calc(-25% + var(--offset));
+	--move-final: calc(-50% + var(--offset));
+	transform: translate3d(var(--move-initial), 0, 0);
+	animation: marquee 1s linear infinite;
+	animation-play-state: paused;
+	opacity: 0;
 }
 
 .button-4:hover .marquee__inner {
-    animation-play-state: running;
-    opacity: 1;
-    transition-duration: 0.4s;
+	animation-play-state: running;
+	opacity: 1;
+	transition-duration: 0.4s;
 }
 
 .marquee span {
-    text-align: center;
-    white-space: nowrap;
-    font-style: italic;
-    padding: 1.5rem 0.5rem;
+	text-align: center;
+	white-space: nowrap;
+	font-style: italic;
+	padding: 1.5rem 0.5rem;
 }
 
 @keyframes marquee {
-    0% {
-        transform: translate3d(var(--move-initial), 0, 0);
-    }
+	0% {
+		transform: translate3d(var(--move-initial), 0, 0);
+	}
 
-    100% {
-        transform: translate3d(var(--move-final), 0, 0);
-    }
+	100% {
+		transform: translate3d(var(--move-final), 0, 0);
+	}
 }
 
 .button-5 {
-    font-family: freight-display-pro, serif;
-    font-weight: 900;
-    font-size: 1.25rem;
-    border-radius: 50%;
-    border: 2px solid #000;
+	font-family: freight-display-pro, serif;
+	font-weight: 900;
+	font-size: 1.25rem;
+	border-radius: 50%;
+	border: 2px solid #000;
 }
 
 .button-5>span {
-    display: inline-block;
-    transition: opacity 0.1s;
+	display: inline-block;
+	transition: opacity 0.1s;
 }
 
 .button-5:hover>span {
-    opacity: 0;
+	opacity: 0;
 }
 
 .button-5 .marquee {
-    transform: rotate(-2.75deg);
+	transform: rotate(-2.75deg);
 }
 
 .button-5:hover .marquee__inner {
-    animation-play-state: running;
-    opacity: 1;
-    transition-duration: 0.6s;
+	animation-play-state: running;
+	opacity: 1;
+	transition-duration: 0.6s;
 }
 
 .button-6 {
-    background: var(--btn-bg-color-hover);
-    font-weight: 700;
-    padding: 0;
-    border-radius: 5px;
+	background: var(--btn-bg-color-hover);
+	font-weight: 700;
+	padding: 0;
+	border-radius: 5px;
 }
 
 .button-6 span {
-    display: block;
-    background: var(--btn-bg-color);
-    padding: 1.5rem 2rem;
-    border: 1px solid #000;
-    border-radius: 5px;
-    transform: translate3d(-4px, -4px, 0);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+	display: block;
+	background: var(--btn-bg-color);
+	padding: 1.5rem 2rem;
+	border: 1px solid #000;
+	border-radius: 5px;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .button-6:hover span {
-    transform: translate3d(-8px, -8px, 0);
+	transform: translate3d(-8px, -8px, 0);
 }
 
 
@@ -268,7 +268,7 @@ a:focus-visible {
 
 
 /* button-1 or name of button start  */
-    /* css here */
+/* css here */
 /* button-1 or name of button end */
 
 /* button-7 ... or name of button start  */
@@ -279,101 +279,427 @@ a:focus-visible {
 	font-family: Verdana, Geneva, sans-serif !important;
 	color: white;
 }
-.button--shiny-gradient  {
+
+.button--shiny-gradient {
 	font-size: 1.2rem;
 	font-weight: 600;
 	border: none;
 	border-radius: 0.8rem;
 	padding: 1.5rem 2.8rem;
 	background-color: rgb(110, 217, 249);
-	background: linear-gradient(
-		165deg,
-		rgb(32, 114, 247) 20%,
-		rgb(110, 217, 249) 45%,
-		rgb(32, 114, 247) 80%
-	  );
+	background: linear-gradient(165deg,
+			rgb(32, 114, 247) 20%,
+			rgb(110, 217, 249) 45%,
+			rgb(32, 114, 247) 80%);
 	background-size: 350%;
 	background-position: left;
-	box-shadow: 
+	box-shadow:
 		0 0 0.2rem rgba(110, 217, 249, 0.8),
 		0 0.2rem 0.8rem -0.2rem rgba(32, 114, 247, 0.8),
 		inset 0.5rem 0.5rem 0.5rem rgba(110, 217, 249, 0.6),
 		inset -0.5rem -0.5rem 0.5rem rgba(32, 114, 247, 0.6);
 
 	transition: background-position 400ms ease-in-out,
-	box-shadow 600ms ease-in-out;
+		box-shadow 600ms ease-in-out;
 	-webkit-transition: background-position 400ms ease-in-out,
-	-webkit-box-shadow 600ms ease-in-out;
+		-webkit-box-shadow 600ms ease-in-out;
 }
 
 .button--shiny-gradient:hover {
 	background-position: right;
 	box-shadow: 0 0.5rem 2rem rgba(110, 217, 249, 0.8),
-	  0 2rem 2rem -2.5rem rgba(32, 114, 247, 0.8),
-	  inset 0.6rem 0.6rem 0.6rem rgba(110, 217, 249, 0.8),
-	  inset -0.6rem -0.6rem 0.6rem rgba(4, 86, 219, 0.8);
-  }
-
-  .button-8 {
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
+		0 2rem 2rem -2.5rem rgba(32, 114, 247, 0.8),
+		inset 0.6rem 0.6rem 0.6rem rgba(110, 217, 249, 0.8),
+		inset -0.6rem -0.6rem 0.6rem rgba(4, 86, 219, 0.8);
 }
-  .button-8:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
+
+.button-8 {
+	width: 220px;
+	height: 50px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #111;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	border-radius: 10px;
+}
+
+.button-8:before {
+	content: '';
+	background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background-size: 400%;
+	z-index: -1;
+	filter: blur(5px);
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	animation: glowing 20s linear infinite;
+	opacity: 0;
+	transition: opacity .3s ease-in-out;
+	border-radius: 10px;
 }
 
 .button-8:active {
-    color: #000
+	color: #000
 }
 
 .button-8:active:after {
-    background: transparent;
+	background: transparent;
 }
 
 .button-8:hover:before {
-    opacity: 1;
+	opacity: 1;
 }
 
 .button-8:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
+	z-index: -1;
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #111;
+	left: 0;
+	top: 0;
+	border-radius: 10px;
 }
 
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+	0% {
+		background-position: 0 0;
+	}
+
+	50% {
+		background-position: 400% 0;
+	}
+
+	100% {
+		background-position: 0 0;
+	}
 }
 
+.button-101 {
+	position: relative;
+	height: 50px;
+	width: 150px;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background-color: #212121;
+	transition: all 0.5s;
+	border: none;
+	cursor: pointer;
+}
 
+.button-101::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(29, 255, 86, 0.281);
+	border-radius: 5px;
+	transition: all 0.3s;
+	z-index: 1;
+}
+
+.button-101:hover::before {
+	opacity: 0;
+	transform: scale(0.7, 0.7);
+	-webkit-transform: scale(0.7, 0.7);
+	-moz-transform: scale(0.7, 0.7);
+	-ms-transform: scale(0.7, 0.7);
+	-o-transform: scale(0.7, 0.7);
+}
+
+.button-101::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s;
+	border: 1px solid rgba(29, 255, 86, 0.281);
+	border-radius: 5px;
+	transform: scale(1.5, 1.5);
+	opacity: 0;
+	z-index: 1;
+}
+
+.button-101:hover::after {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+
+.button-102 {
+	padding: 0.1em 0.25em;
+	width: 13em;
+	height: 4.2em;
+	background-color: #212121;
+	border: 0.08em solid #fff;
+	border-radius: 0.3em;
+	font-size: 12px;
+}
+
+.button-102 span {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0.4em;
+	width: 8.25em;
+	height: 2.5em;
+	background-color: #212121;
+	border-radius: 0.2em;
+	font-size: 1.5em;
+	color: #fff;
+	border: 0.08em solid #fff;
+	box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+.button-102 span:hover {
+	transition: all 0.5s;
+	transform: translate(0, 0.4em);
+	box-shadow: 0 0 0 0 #fff;
+}
+
+.button-102 span:not(hover) {
+	transition: all 1s;
+}
+
+.button-103 {
+	position: relative;
+	padding: 10px 20px;
+	border-radius: 7px;
+	border: 1px solid rgb(61, 106, 255);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background: transparent;
+	color: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 0 0 transparent;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.button-103:hover {
+	background: rgb(61, 106, 255);
+	box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.button-103:hover::before {
+	-moz-animation: sh02 0.5s 0s linear;
+	animation: sh02 0.5s 0s linear;
+}
+
+.button-103::before {
+	content: '';
+	display: block;
+	width: 0px;
+	height: 86%;
+	position: absolute;
+	top: 7%;
+	left: 0%;
+	opacity: 0;
+	background: #fff;
+	box-shadow: 0 0 50px 30px #fff;
+	-webkit-transform: skewX(-20deg);
+	-moz-transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	-o-transform: skewX(-20deg);
+	transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+	from {
+		opacity: 0;
+		left: 0%;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		left: 100%;
+	}
+    
+.button-103:active {
+	box-shadow: 0 0 0 0 transparent;
+	transition: box-shadow 0.2s ease-in;
+	-webkit-transition: box-shadow 0.2s ease-in;
+	-moz-transition: box-shadow 0.2s ease-in;
+	-ms-transition: box-shadow 0.2s ease-in;
+	-o-transition: box-shadow 0.2s ease-in;
+}
+   
+
+
+/* -------------------------------------------------------------button 9----------------------------------------------------- */
+.Mahekjain-button-9 {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+.Mahekjain-button-9::after,
+    .Mahekjain-button-9::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+  }
+  
+.Mahekjain-button-9::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #28282d;
+    border-radius: 10px;
+  }
+  
+.Mahekjain-button-9::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+  }
+  
+.Mahekjain-button-9:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+  }
+  
+ .Mahekjain-button-9:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+  }
+
+  .Mahekjain-button-9:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+  }
+
+  /* -------------------------------------------------------------button 10----------------------------------------------------- */
+.Mahekjain-btn-10 a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 10px;
+   
+}
+.Mahekjain-btn-10 a:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.Mahekjain-btn-10 a:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+.Mahekjain-btn-10 a:nth-child(2){
+    filter: hue-rotate(110deg);
+}
+.Mahekjain-btn-10 a span{
+    position: absolute;
+    display: block;
+}
+.Mahekjain-btn-10 a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.Mahekjain-btn-10 a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.Mahekjain-btn-10 a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
 
 .button-Anurag {
     align-items: center;
@@ -423,3 +749,243 @@ a:focus-visible {
       min-width: 196px;
     }
   }
+
+
+.Mahekjain-btn-10 a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+
+/*buttons 11*/
+/* start for buttons 11*/
+
+.ingrzs-button-11 {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #3d405b;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 17px;
+	padding: 16px;
+	width: 130px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+   }
+   
+   .ingrzs-button-11 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+   }
+   
+   .ingrzs-button-11 span:after {
+	content: '»';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -15px;
+	transition: 0.5s;
+   }
+
+   .ingrzs-button-11:hover span {
+	padding-right: 15px;
+   }
+   
+   .ingrzs-button-11:hover span:after {
+	opacity: 1;
+	right: 0;
+   }
+   
+/* end for button 11 */
+
+
+/* new buttons */
+
+.mahi-btn-1 {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: none;
+    color: white;
+    border: 1px solid #787878;
+    border-radius: 15px;
+}
+
+.mahi-btn-1:hover {
+    background-color: #7F8487;
+}
+
+.mahi-btn-2 {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: none;
+    color: white;
+    border: 1px solid #FBF2CF;
+    
+    transition:  0.5s ease, color 1s ease;
+}
+.mahi-btn-2:hover {
+    background-color: #FBF2CF;
+    color: black;
+    font-weight: bold;
+}
+
+.mahi-btn-3 {
+    padding: 1rem 2rem;
+	background: #638aab;
+    border-radius: 3px;
+	color: #fff;
+	box-shadow: 0 6px #323232;
+	transition: none;
+}
+.mahi-btn-3:hover {
+	box-shadow: 0 4px #323232;
+	top: 2px;
+}
+
+.mahi-btn-4 {
+    padding: 1rem 2rem;
+    background: transparent;
+    border: 3px solid #5F6F94;
+    color: #fff;
+    transition: .3s;
+}
+
+.mahi-btn-4:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+
+.button-9
+{
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1566150783936-23096928b65b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1296&q=60);
+    justify-content: center;
+    margin : 60px auto;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+@keyframes star {
+    0%{
+        border-top: 4px solid white;
+    }
+    25%{
+        border-right: 4px solid white;
+    }
+    50%{
+        border-bottom: 4px solid white;
+    }
+    100%{
+        border-left: 4px solid white;
+    }
+}
+.button-9 :hover{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    animation: star 1s infinite;
+}
+
+.manas-btn-10{
+    padding: 20px;
+    border: solid green;
+    background-color: black;
+    border-radius: 8px;
+    font-size: 130%;
+    color: orange;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.manas-btn-10:hover{
+    border: none;
+    font-size: 200%;
+    color: black;
+    background: linear-gradient(orange,white,green);
+    /* transition-duration: 0.5s; */
+    transition: 1s;
+    padding: 35px;
+}
+
+/*  CSS FOR BUTTON 9 ENDS */
+
+/* ImOnlyYisus Btn CSS*/
+.ImOnlyYisusContainer{
+position: relative;
+}
+
+.ImOnlyYisus-btn{
+	padding: 6px;
+	padding-bottom: .5em ;
+	padding-top: .5em ;
+	font-size: 20px;
+	text-transform: uppercase;
+	color:#fff;
+	border:none;
+	background-color: transparent;
+	transition: .3s;
+}
+
+.ImOnlyYisus-btn::after{
+	content: "";
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 10%;
+	height: 5%;
+	transition: .3s;
+}
+
+.ImOnlyYisus-btn::before{
+	content: "";
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10%;
+	height: 5%;
+	transition: .3s;
+}
+
+.ImOnlyYisus-btn:hover{
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;;
+}
+
+.ImOnlyYisus-btn:hover::after{
+	width: 100%;
+}
+
+.ImOnlyYisus-btn:hover::before{
+	width: 100%;
+}
+/*ImOnlyYisus Btn CSS ENDS*/
+
