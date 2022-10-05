@@ -473,7 +473,7 @@ a:focus-visible {
     animation: star 1s infinite;
 }
 
-.button-10{
+.manas-btn-10{
     padding: 20px;
     border: solid green;
     background-color: black;
@@ -483,7 +483,7 @@ a:focus-visible {
     font-weight: 600;
     transition: 0.5s;
 }
-.button-10:hover{
+.manas-btn-10:hover{
     border: none;
     font-size: 200%;
     color: black;
