@@ -536,7 +536,12 @@ a:focus-visible {
 		opacity: 0;
 		left: 100%;
 	}
+     0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }
+
+/* } */
 
 .button-103:active {
 	box-shadow: 0 0 0 0 transparent;
@@ -546,11 +551,7 @@ a:focus-visible {
 	-ms-transition: box-shadow 0.2s ease-in;
 	-o-transition: box-shadow 0.2s ease-in;
 }
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
-
+   
 
 
 /* -------------------------------------------------------------button 9----------------------------------------------------- */
@@ -891,4 +892,56 @@ a:focus-visible {
 }
 
 /*  CSS FOR BUTTON 9 ENDS */
+
+/* ImOnlyYisus Btn CSS*/
+.ImOnlyYisusContainer{
+position: relative;
+}
+
+.ImOnlyYisus-btn{
+	padding: 6px;
+	padding-bottom: .5em ;
+	padding-top: .5em ;
+	font-size: 20px;
+	text-transform: uppercase;
+	color:#fff;
+	border:none;
+	background-color: transparent;
+	transition: .3s;
+}
+
+.ImOnlyYisus-btn::after{
+	content: "";
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 10%;
+	height: 5%;
+	transition: .3s;
+}
+
+.ImOnlyYisus-btn::before{
+	content: "";
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10%;
+	height: 5%;
+	transition: .3s;
+}
+
+.ImOnlyYisus-btn:hover{
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;;
+}
+
+.ImOnlyYisus-btn:hover::after{
+	width: 100%;
+}
+
+.ImOnlyYisus-btn:hover::before{
+	width: 100%;
+}
+/*ImOnlyYisus Btn CSS ENDS*/
 
