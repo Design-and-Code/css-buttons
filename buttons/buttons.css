@@ -536,6 +536,8 @@ a:focus-visible {
 		opacity: 0;
 		left: 100%;
 	}
+	
+}
     
 .button-103:active {
 	box-shadow: 0 0 0 0 transparent;
