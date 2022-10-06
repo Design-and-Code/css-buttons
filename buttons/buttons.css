@@ -1197,3 +1197,29 @@ position: relative;
 	height: 100%;
 }
 /* cyphers btn end  */
+
+/* blurry btn start */
+.blurry-brush-btn:hover,
+.blurry-brush-btn:focus {
+box-shadow: 0 0.5em 0.5em -0.4em #e24091;
+-webkit-transform: translateY(-0.25em);
+transform: translateY(-0.25em);
+border-color: #e24091;
+color: #fff;
+border-radius: 50px;
+}
+
+.blurry-brush-btn{
+-webkit-transition: 0.25s;
+transition: 0.25s;
+background: none;
+border: 2px solid;
+font: inherit;
+line-height: 1;
+margin: 0.5em;
+padding: 1em 2em;
+color: #e24091;
+border-radius: 25px;
+}
+
+/* blurry btn end */
