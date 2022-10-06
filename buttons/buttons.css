@@ -1080,6 +1080,80 @@ position: relative;
   
 /* raulwwq0 btn end */
 
+
+=======
+.Srishti-btn-1 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+	color: white;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+}
+
+.Srishti-btn-1:after {
+  content: "";
+  background-color: #343432;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.Srishti-btn-1:hover:after {
+  top: 0px;
+  left: 0px;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+	text-shadow: 1px 1px 2px #427388;
+}
+
+@media (min-width: 768px) {
+  .Srishti-btn-1 {
+    padding: 13px 50px 13px;
+  }
+}
+
+/* Ola's btn start */
+.ola-btn-11 {
+  background-color: #333333;
+  color: #fff;
+  border: none;
+  padding: 1em 2.5em;
+  position: relative;
+  cursor: pointer;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.ola-btn-11::before {
+  content: 'Hover me';
+  display: grid;
+  place-items: center;
+  color: #333333;
+  position: absolute;
+  inset: 0;
+  background-color: cyan;
+  font-family: inherit;
+  clip-path: circle(50% at -100% 0);
+  transition: clip-path 400ms linear;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.ola-btn-11:hover::before {
+  clip-path: circle(200% at 0 0);
+}
+/* Ola's btn end */
+
 /* Mayank1170 btn start */
 
 .btn-hover.color-10 {
