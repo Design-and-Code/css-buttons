@@ -996,7 +996,7 @@ position: relative;
 button {
 	margin: 20px;
   }
-  .custom-btn {
+  .minhaj-button {
 	width: 130px;
 	height: 40px;
 	color: #fff;
@@ -1014,7 +1014,7 @@ button {
 	 4px 4px 5px 0px rgba(0,0,0,.1);
 	outline: none;
   }
-  .btn-m {
+  .btn-22 {
 	width: 130px;
 	height: 40px;
 	line-height: 42px;
@@ -1023,13 +1023,13 @@ button {
 	background: rgb(255, 0, 208);
   background: linear-gradient(0deg, rgb(221, 0, 255) 0%, rgb(251, 2, 226) 100%);
   }
-  .btn-m:hover {
+  .btn-22:hover {
 	color: #ec09f0;
 	background: transparent;
 	 box-shadow:none;
   }
-  .btn-m:before,
-  .btn-m:after{
+  .btn-22:before,
+  .btn-22:after{
 	content:'';
 	position:absolute;
 	top:0;
@@ -1043,14 +1043,14 @@ button {
 	 4px 4px 5px 0px #0002;
 	transition:400ms ease all;
   }
-  .btn-m:after{
+  .btn-22:after{
 	right:inherit;
 	top:inherit;
 	left:0;
 	bottom:0;
   }
-  .btn-m:hover:before,
-  .btn-m:hover:after{
+  .btn-22:hover:before,
+  .btn-22:hover:after{
 	width:100%;
 	transition:800ms ease all;
   }
