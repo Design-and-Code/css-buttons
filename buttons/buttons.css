@@ -1151,3 +1151,49 @@ position: relative;
   clip-path: circle(200% at 0 0);
 }
 /* Ola's btn end */
+
+
+/* cyphers btn start */
+.cypher-btn{
+	color: #fff;
+	font-size:1.2rem;
+	padding: 1em 2.5em;
+	background-color: #2874a6;
+	cursor: pointer;
+	position:relative;
+	border:none;
+}
+
+.cypher-btn::before{
+	content:"";
+    position: absolute;
+	left:-10px;
+	top:-10px;
+	width: 40px;
+	height: 40px;
+	/* background: #2e86c1;
+	border: 5px solid #2e86c1; */
+	border-top: 5px solid #2e86c1;
+	border-left: 5px solid #2e86c1;
+	transition:all 0.4s;
+}
+
+.cypher-btn::after{
+	content:"";
+    position: absolute;
+	bottom:-10px;
+	right:-10px;
+	width: 40px;
+	height: 40px;
+	/* background: #2e86c1;
+	border: 5px solid #2e86c1; */
+	border-bottom: 5px solid #2e86c1;
+	border-right: 5px solid #2e86c1;
+	transition:all 0.4s;
+}
+
+.cypher-btn:hover:before,.cypher-btn:hover:after{
+	width: 100%;
+	height: 100%;
+}
+/* cyphers btn end  */
