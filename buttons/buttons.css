@@ -1079,3 +1079,33 @@ position: relative;
   }
   
 /* raulwwq0 btn end */
+
+/* Ola's btn start */
+.ola-btn-11 {
+  background-color: #333333;
+  color: #fff;
+  border: none;
+  padding: 1em 2.5em;
+  position: relative;
+  cursor: pointer;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.ola-btn-11::before {
+  content: 'Hover me';
+  display: grid;
+  place-items: center;
+  color: #333333;
+  position: absolute;
+  inset: 0;
+  background-color: cyan;
+  font-family: inherit;
+  clip-path: circle(50% at -100% 0);
+  transition: clip-path 400ms linear;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.ola-btn-11:hover::before {
+  clip-path: circle(200% at 0 0);
+}
+/* Ola's btn end */
