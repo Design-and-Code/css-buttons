@@ -1198,6 +1198,53 @@ position: relative;
 }
 /* cyphers btn end  */
 
+
+/* *Swaroop btn start */
+.noob-span {
+    position: relative;
+    padding: 4rem 8rem;
+    overflow: hidden;
+		border-radius: 0.5rem;
+}
+
+.noob-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* transform: translateY(-50%); */
+    height: 150%;
+    width: 150%;
+    object-position: center;
+    object-fit: cover;
+    z-index: 10;
+		border-radius: 0.5rem;
+}
+
+.button-noob {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 20;
+    background: transparent;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+		border-radius: 0.5rem;
+}
+
+.button-noob:hover {
+    border: 2px solid green;
+}
+
+.button-noob:focus {
+    border: 4px solid green;
+}
+/* *Swaroop btn end */
+
 /* blurry btn start */
 .blurry-brush-btn:hover,
 .blurry-brush-btn:focus {
