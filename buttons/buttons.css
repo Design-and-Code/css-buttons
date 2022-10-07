@@ -1197,3 +1197,63 @@ position: relative;
 	height: 100%;
 }
 /* cyphers btn end  */
+
+/* Subrata's Button Start */
+
+:root {
+    --bg: #1a1e24;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.Subrata-button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+
+.Subrata-button:before,
+.Subrata-button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.Subrata-button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.Subrata-button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.Subrata-button:hover:before,
+.Subrata-button:hover:after {
+    transform: none;
+}
+
+/* Subrata's Button End */
