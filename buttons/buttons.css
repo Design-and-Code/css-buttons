@@ -1082,18 +1082,18 @@ position: relative;
 
 /* Mayank1170 btn start */
 
-.btn-hover.color-10 {
+.Mayank1170.color-10 {
     background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
 box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
-.btn-hover:hover {
+.Mayank1170:hover {
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-.btn-hover {
+.Mayank1170 {
     width: 200px;
     font-size: 16px;
     font-weight: 600;
