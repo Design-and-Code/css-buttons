@@ -5,8 +5,6 @@
 	--font-color-black: rgb(0 0 0 / 1);
 }
 
-
-
 a:focus,
 button:focus {
 	outline: none;
@@ -52,7 +50,6 @@ a:focus-visible {
 	overflow: hidden;
 	color: var(--font-color-black);
 	background-color: var(--btn-bg-color-hover);
-
 }
 
 .button-1 span {
@@ -83,18 +80,18 @@ a:focus-visible {
 	position: relative;
 }
 
-.button-2>span {
+.button-2 > span {
 	color: var(--font-color-black);
 
 	overflow: hidden;
 }
 
-.button-2>span>span {
+.button-2 > span > span {
 	color: var(--font-color-black);
 	overflow: hidden;
 }
 
-.button-2:hover>span>span {
+.button-2:hover > span > span {
 	color: var(--font-color-black);
 	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
@@ -140,7 +137,6 @@ a:focus-visible {
 
 .button-3 span {
 	position: relative;
-
 }
 
 .button-3::before {
@@ -161,12 +157,11 @@ a:focus-visible {
 	font-weight: 500;
 }
 
-.button-4>span {
-
+.button-4 > span {
 	display: inline-block;
 }
 
-.button-4:hover>span {
+.button-4:hover > span {
 	opacity: 0;
 }
 
@@ -223,12 +218,12 @@ a:focus-visible {
 	border: 2px solid #000;
 }
 
-.button-5>span {
+.button-5 > span {
 	display: inline-block;
 	transition: opacity 0.1s;
 }
 
-.button-5:hover>span {
+.button-5:hover > span {
 	opacity: 0;
 }
 
@@ -263,9 +258,7 @@ a:focus-visible {
 	transform: translate3d(-8px, -8px, 0);
 }
 
-
 /* add your css of buttons from here  */
-
 
 /* button-1 or name of button start  */
 /* css here */
@@ -287,14 +280,15 @@ a:focus-visible {
 	border-radius: 0.8rem;
 	padding: 1.5rem 2.8rem;
 	background-color: rgb(110, 217, 249);
-	background: linear-gradient(165deg,
-			rgb(32, 114, 247) 20%,
-			rgb(110, 217, 249) 45%,
-			rgb(32, 114, 247) 80%);
+	background: linear-gradient(
+		165deg,
+		rgb(32, 114, 247) 20%,
+		rgb(110, 217, 249) 45%,
+		rgb(32, 114, 247) 80%
+	);
 	background-size: 350%;
 	background-position: left;
-	box-shadow:
-		0 0 0.2rem rgba(110, 217, 249, 0.8),
+	box-shadow: 0 0 0.2rem rgba(110, 217, 249, 0.8),
 		0 0.2rem 0.8rem -0.2rem rgba(32, 114, 247, 0.8),
 		inset 0.5rem 0.5rem 0.5rem rgba(110, 217, 249, 0.6),
 		inset -0.5rem -0.5rem 0.5rem rgba(32, 114, 247, 0.6);
@@ -328,7 +322,18 @@ a:focus-visible {
 
 .button-8:before {
 	content: '';
-	background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+	background: linear-gradient(
+		45deg,
+		#ff0000,
+		#ff7300,
+		#fffb00,
+		#48ff00,
+		#00ffd5,
+		#002bff,
+		#7a00ff,
+		#ff00c8,
+		#ff0000
+	);
 	position: absolute;
 	top: -2px;
 	left: -2px;
@@ -339,12 +344,12 @@ a:focus-visible {
 	height: calc(100% + 4px);
 	animation: glowing 20s linear infinite;
 	opacity: 0;
-	transition: opacity .3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
 	border-radius: 10px;
 }
 
 .button-8:active {
-	color: #000
+	color: #000;
 }
 
 .button-8:active:after {
@@ -385,7 +390,7 @@ a:focus-visible {
 	position: relative;
 	height: 50px;
 	width: 150px;
-	color: #FFF;
+	color: #fff;
 	font-size: 15px;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -536,9 +541,8 @@ a:focus-visible {
 		opacity: 0;
 		left: 100%;
 	}
-	
 }
-    
+
 .button-103:active {
 	box-shadow: 0 0 0 0 transparent;
 	transition: box-shadow 0.2s ease-in;
@@ -547,228 +551,226 @@ a:focus-visible {
 	-ms-transition: box-shadow 0.2s ease-in;
 	-o-transition: box-shadow 0.2s ease-in;
 }
-   
-
 
 /* -------------------------------------------------------------button 9----------------------------------------------------- */
 .Mahekjain-button-9 {
-    all: unset;
-    width: 100px;
-    height: 30px;
-    font-size: 16px;
-    background: transparent;
-    border: none;
-    position: relative;
-    color: #f0f0f0;
-    cursor: pointer;
-    z-index: 1;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
+	all: unset;
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	background: transparent;
+	border: none;
+	position: relative;
+	color: #f0f0f0;
+	cursor: pointer;
+	z-index: 1;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
 .Mahekjain-button-9::after,
-    .Mahekjain-button-9::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -99999;
-    transition: all .4s;
-  }
-  
 .Mahekjain-button-9::before {
-    transform: translate(0%, 0%);
-    width: 100%;
-    height: 100%;
-    background: #28282d;
-    border-radius: 10px;
-  }
-  
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: -99999;
+	transition: all 0.4s;
+}
+
+.Mahekjain-button-9::before {
+	transform: translate(0%, 0%);
+	width: 100%;
+	height: 100%;
+	background: #28282d;
+	border-radius: 10px;
+}
+
 .Mahekjain-button-9::after {
-    transform: translate(10px, 10px);
-    width: 35px;
-    height: 35px;
-    background: #ffffff15;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border-radius: 50px;
-  }
-  
+	transform: translate(10px, 10px);
+	width: 35px;
+	height: 35px;
+	background: #ffffff15;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-radius: 50px;
+}
+
 .Mahekjain-button-9:hover::before {
-    transform: translate(5%, 20%);
-    width: 110%;
-    height: 110%;
-  }
-  
- .Mahekjain-button-9:hover::after {
-    border-radius: 10px;
-    transform: translate(0, 0);
-    width: 100%;
-    height: 100%;
-  }
+	transform: translate(5%, 20%);
+	width: 110%;
+	height: 110%;
+}
 
-  .Mahekjain-button-9:active::after {
-    transition: 0s;
-    transform: translate(0, 5%);
-  }
+.Mahekjain-button-9:hover::after {
+	border-radius: 10px;
+	transform: translate(0, 0);
+	width: 100%;
+	height: 100%;
+}
 
-  /* -------------------------------------------------------------button 10----------------------------------------------------- */
-.Mahekjain-btn-10 a{
-    position: relative;
-    display: inline-block;
-    padding: 25px 30px;
-    margin: 40px 0;
-    color: #03e9f4;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-    letter-spacing: 4px;
-    overflow: hidden;
-    margin-right: 10px;
-   
+.Mahekjain-button-9:active::after {
+	transition: 0s;
+	transform: translate(0, 5%);
 }
-.Mahekjain-btn-10 a:hover{
-    background: #03e9f4;
-    color: #050801;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 200px #03e9f4;
-     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+
+/* -------------------------------------------------------------button 10----------------------------------------------------- */
+.Mahekjain-btn-10 a {
+	position: relative;
+	display: inline-block;
+	padding: 25px 30px;
+	margin: 40px 0;
+	color: #03e9f4;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+	letter-spacing: 4px;
+	overflow: hidden;
+	margin-right: 10px;
 }
-.Mahekjain-btn-10 a:nth-child(1){
-    filter: hue-rotate(270deg);
+.Mahekjain-btn-10 a:hover {
+	background: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+		0 0 200px #03e9f4;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
-.Mahekjain-btn-10 a:nth-child(2){
-    filter: hue-rotate(110deg);
+.Mahekjain-btn-10 a:nth-child(1) {
+	filter: hue-rotate(270deg);
 }
-.Mahekjain-btn-10 a span{
-    position: absolute;
-    display: block;
+.Mahekjain-btn-10 a:nth-child(2) {
+	filter: hue-rotate(110deg);
 }
-.Mahekjain-btn-10 a span:nth-child(1){
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg,transparent,#03e9f4);
-    animation: animate1 1s linear infinite;
+.Mahekjain-btn-10 a span {
+	position: absolute;
+	display: block;
 }
-@keyframes animate1{
-    0%{
-        left: -100%;
-    }
-    50%,100%{
-        left: 100%;
-    }
+.Mahekjain-btn-10 a span:nth-child(1) {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #03e9f4);
+	animation: animate1 1s linear infinite;
 }
-.Mahekjain-btn-10 a span:nth-child(2){
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg,transparent,#03e9f4);
-    animation: animate2 1s linear infinite;
-    animation-delay: 0.25s;
+@keyframes animate1 {
+	0% {
+		left: -100%;
+	}
+	50%,
+	100% {
+		left: 100%;
+	}
 }
-@keyframes animate2{
-    0%{
-        top: -100%;
-    }
-    50%,100%{
-        top: 100%;
-    }
+.Mahekjain-btn-10 a span:nth-child(2) {
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #03e9f4);
+	animation: animate2 1s linear infinite;
+	animation-delay: 0.25s;
 }
-.Mahekjain-btn-10 a span:nth-child(3){
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg,transparent,#03e9f4);
-    animation: animate3 1s linear infinite;
-    animation-delay: 0.50s;
+@keyframes animate2 {
+	0% {
+		top: -100%;
+	}
+	50%,
+	100% {
+		top: 100%;
+	}
 }
-@keyframes animate3{
-    0%{
-        right: -100%;
-    }
-    50%,100%{
-        right: 100%;
-    }
+.Mahekjain-btn-10 a span:nth-child(3) {
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #03e9f4);
+	animation: animate3 1s linear infinite;
+	animation-delay: 0.5s;
+}
+@keyframes animate3 {
+	0% {
+		right: -100%;
+	}
+	50%,
+	100% {
+		right: 100%;
+	}
 }
 
 .button-Anurag {
-    align-items: center;
-    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
-    border: 0;
-    border-radius: 8px;
-    box-shadow: rgba(14, 8, 22, 0.2) 0 15px 30px -5px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    display: flex;
-    font-family: Phantomsans, sans-serif;
-    font-size: 2em;
-    justify-content: center;
-    line-height: 1em;
-    max-width: 100%;
-    min-width: 140px;
-    padding: 3px;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    cursor: pointer;
-  }
-  
-  .button-Anurag:active,
-  .button-Anurag:hover {
-    outline: 0;
-  }
-  
-  .button-Anurag span {
-    background-color: rgb(22, 17, 61);
-    padding: 16px 24px;
-    border-radius: 6px;
-    width: 100%;
-    height: 100%;
-    transition: 300ms;
-  }
-  
-  .button-Anurag:hover span {
-    background: none;
-  }
-  
-  @media (min-width: 768px) {
-    .button-Anurag {
-      font-size: 24px;
-      min-width: 196px;
-    }
-  }
-
-
-.Mahekjain-btn-10 a span:nth-child(4){
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg,transparent,#03e9f4);
-    animation: animate4 1s linear infinite;
-    animation-delay: 0.75s;
+	align-items: center;
+	background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+	border: 0;
+	border-radius: 8px;
+	box-shadow: rgba(14, 8, 22, 0.2) 0 15px 30px -5px;
+	box-sizing: border-box;
+	color: #ffffff;
+	display: flex;
+	font-family: Phantomsans, sans-serif;
+	font-size: 2em;
+	justify-content: center;
+	line-height: 1em;
+	max-width: 100%;
+	min-width: 140px;
+	padding: 3px;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	cursor: pointer;
 }
-@keyframes animate4{
-    0%{
-        bottom: -100%;
-    }
-    50%,100%{
-        bottom: 100%;
-    }
+
+.button-Anurag:active,
+.button-Anurag:hover {
+	outline: 0;
+}
+
+.button-Anurag span {
+	background-color: rgb(22, 17, 61);
+	padding: 16px 24px;
+	border-radius: 6px;
+	width: 100%;
+	height: 100%;
+	transition: 300ms;
+}
+
+.button-Anurag:hover span {
+	background: none;
+}
+
+@media (min-width: 768px) {
+	.button-Anurag {
+		font-size: 24px;
+		min-width: 196px;
+	}
+}
+
+.Mahekjain-btn-10 a span:nth-child(4) {
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #03e9f4);
+	animation: animate4 1s linear infinite;
+	animation-delay: 0.75s;
+}
+@keyframes animate4 {
+	0% {
+		bottom: -100%;
+	}
+	50%,
+	100% {
+		bottom: 100%;
+	}
 }
 
 /*buttons 11*/
@@ -779,7 +781,7 @@ a:focus-visible {
 	border-radius: 4px;
 	background-color: #3d405b;
 	border: none;
-	color: #FFFFFF;
+	color: #ffffff;
 	text-align: center;
 	font-size: 17px;
 	padding: 16px;
@@ -787,68 +789,67 @@ a:focus-visible {
 	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
-   }
-   
-   .ingrzs-button-11 span {
+}
+
+.ingrzs-button-11 span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-   }
-   
-   .ingrzs-button-11 span:after {
+}
+
+.ingrzs-button-11 span:after {
 	content: '»';
 	position: absolute;
 	opacity: 0;
 	top: 0;
 	right: -15px;
 	transition: 0.5s;
-   }
+}
 
-   .ingrzs-button-11:hover span {
+.ingrzs-button-11:hover span {
 	padding-right: 15px;
-   }
-   
-   .ingrzs-button-11:hover span:after {
+}
+
+.ingrzs-button-11:hover span:after {
 	opacity: 1;
 	right: 0;
-   }
-   
-/* end for button 11 */
+}
 
+/* end for button 11 */
 
 /* new buttons */
 
 .mahi-btn-1 {
-    padding: 1rem 2.5rem 1rem 2.5rem;
-    background: none;
-    color: white;
-    border: 1px solid #787878;
-    border-radius: 15px;
+	padding: 1rem 2.5rem 1rem 2.5rem;
+	background: none;
+	color: white;
+	border: 1px solid #787878;
+	border-radius: 15px;
 }
 
 .mahi-btn-1:hover {
-    background-color: #7F8487;
+	background-color: #7f8487;
 }
 
 .mahi-btn-2 {
-    padding: 1rem 2.5rem 1rem 2.5rem;
-    background: none;
-    color: white;
-    border: 1px solid #FBF2CF;
-    
-    transition:  0.5s ease, color 1s ease;
+	padding: 1rem 2.5rem 1rem 2.5rem;
+	background: none;
+	color: white;
+	border: 1px solid #fbf2cf;
+
+	transition: 0.5s ease, color 1s ease;
 }
 .mahi-btn-2:hover {
-    background-color: #FBF2CF;
-    color: black;
-    font-weight: bold;
+	background-color: #fbf2cf;
+	color: black;
+	font-weight: bold;
 }
 
 .mahi-btn-3 {
-    padding: 1rem 2rem;
+	padding: 1rem 2rem;
 	background: #638aab;
-    border-radius: 3px;
+	border-radius: 3px;
 	color: #fff;
 	box-shadow: 0 6px #323232;
 	transition: none;
@@ -859,134 +860,132 @@ a:focus-visible {
 }
 
 .mahi-btn-4 {
-    padding: 1rem 2rem;
-    background: transparent;
-    border: 3px solid #5F6F94;
-    color: #fff;
-    transition: .3s;
+	padding: 1rem 2rem;
+	background: transparent;
+	border: 3px solid #5f6f94;
+	color: #fff;
+	transition: 0.3s;
 }
 
 .mahi-btn-4:hover {
-    animation: pulse 1s infinite;
-    transition: .3s;
+	animation: pulse 1s infinite;
+	transition: 0.3s;
 }
 
-
 @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    70% {
-      transform: scale(.9);
-    }
-      100% {
-      transform: scale(1);
-    }
-  }
+	0% {
+		transform: scale(1);
+	}
+	70% {
+		transform: scale(0.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
 
-.button-9
-{
-    display: flex;
-    background-image: url(https://images.unsplash.com/photo-1566150783936-23096928b65b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1296&q=60);
-    justify-content: center;
-    margin : 60px auto;
-    border-radius: 20px;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+.button-9 {
+	display: flex;
+	background-image: url(https://images.unsplash.com/photo-1566150783936-23096928b65b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1296&q=60);
+	justify-content: center;
+	margin: 60px auto;
+	border-radius: 20px;
+	padding: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @keyframes star {
-    0%{
-        border-top: 4px solid white;
-    }
-    25%{
-        border-right: 4px solid white;
-    }
-    50%{
-        border-bottom: 4px solid white;
-    }
-    100%{
-        border-left: 4px solid white;
-    }
+	0% {
+		border-top: 4px solid white;
+	}
+	25% {
+		border-right: 4px solid white;
+	}
+	50% {
+		border-bottom: 4px solid white;
+	}
+	100% {
+		border-left: 4px solid white;
+	}
 }
-.button-9 :hover{
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-    animation: star 1s infinite;
+.button-9 :hover {
+	padding: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border-radius: 20px;
+	animation: star 1s infinite;
 }
 
-.manas-btn-10{
-    padding: 20px;
-    border: solid green;
-    background-color: black;
-    border-radius: 8px;
-    font-size: 130%;
-    color: orange;
-    font-weight: 600;
-    transition: 0.5s;
+.manas-btn-10 {
+	padding: 20px;
+	border: solid green;
+	background-color: black;
+	border-radius: 8px;
+	font-size: 130%;
+	color: orange;
+	font-weight: 600;
+	transition: 0.5s;
 }
-.manas-btn-10:hover{
-    border: none;
-    font-size: 200%;
-    color: black;
-    background: linear-gradient(orange,white,green);
-    /* transition-duration: 0.5s; */
-    transition: 1s;
-    padding: 35px;
+.manas-btn-10:hover {
+	border: none;
+	font-size: 200%;
+	color: black;
+	background: linear-gradient(orange, white, green);
+	/* transition-duration: 0.5s; */
+	transition: 1s;
+	padding: 35px;
 }
 
 /*  CSS FOR BUTTON 9 ENDS */
 
 /* ImOnlyYisus Btn CSS*/
-.ImOnlyYisusContainer{
-position: relative;
+.ImOnlyYisusContainer {
+	position: relative;
 }
 
-.ImOnlyYisus-btn{
+.ImOnlyYisus-btn {
 	padding: 6px;
-	padding-bottom: .5em ;
-	padding-top: .5em ;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
 	font-size: 20px;
 	text-transform: uppercase;
-	color:#fff;
-	border:none;
+	color: #fff;
+	border: none;
 	background-color: transparent;
-	transition: .3s;
+	transition: 0.3s;
 }
 
-.ImOnlyYisus-btn::after{
-	content: "";
+.ImOnlyYisus-btn::after {
+	content: '';
 	background-color: white;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 10%;
 	height: 5%;
-	transition: .3s;
+	transition: 0.3s;
 }
 
-.ImOnlyYisus-btn::before{
-	content: "";
+.ImOnlyYisus-btn::before {
+	content: '';
 	background-color: white;
 	position: absolute;
 	top: 0;
 	right: 0;
 	width: 10%;
 	height: 5%;
-	transition: .3s;
+	transition: 0.3s;
 }
 
-.ImOnlyYisus-btn:hover{
-	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;;
+.ImOnlyYisus-btn:hover {
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+		0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
-.ImOnlyYisus-btn:hover::after{
+.ImOnlyYisus-btn:hover::after {
 	width: 100%;
 }
 
-.ImOnlyYisus-btn:hover::before{
+.ImOnlyYisus-btn:hover::before {
 	width: 100%;
 }
 /*ImOnlyYisus Btn CSS ENDS*/
@@ -1011,25 +1010,22 @@ position: relative;
 	-webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
 	transition: 0.45s;
 	transition-delay: 0s;
-  }
-  
-  .raulwwq0-btn:hover {
+}
+
+.raulwwq0-btn:hover {
 	transition-delay: 0.5s;
 	color: #fff;
-	box-shadow: 0 0 10px #7300ff,
-				  0 0 20px #7300ff,
-				  0 0 40px #7300ff, 
-				  0 0 80px #7300ff, 
-				  0 0 100px #7300ff;
-  }
-  
-  .raulwwq0-btn span {
+	box-shadow: 0 0 10px #7300ff, 0 0 20px #7300ff, 0 0 40px #7300ff,
+		0 0 80px #7300ff, 0 0 100px #7300ff;
+}
+
+.raulwwq0-btn span {
 	position: relative;
 	z-index: 100;
-  }
-  
-  .raulwwq0-btn::before {
-	content: "";
+}
+
+.raulwwq0-btn::before {
+	content: '';
 	position: absolute;
 	left: -20px;
 	top: 50%;
@@ -1037,26 +1033,21 @@ position: relative;
 	width: 20px;
 	height: 2px;
 	background: #7300ff;
-	box-shadow: 5px -8px 0 #7300ff, 
-				5px 8px 0 #7300ff;
-	transition: width 0.5s, 
-				left 0.5s, 
-				height 0.5s, 
-				box-shadow 0.5s;
+	box-shadow: 5px -8px 0 #7300ff, 5px 8px 0 #7300ff;
+	transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
 	transition-delay: 0.5s, 0.5s, 0s, 0s;
-  }
-  
-  .raulwwq0-btn:hover::before {
+}
+
+.raulwwq0-btn:hover::before {
 	width: 60%;
 	height: 100%;
 	left: -2px;
-	box-shadow: 5px 0 0 #7300ff, 
-				5px 0 0 #7300ff;
+	box-shadow: 5px 0 0 #7300ff, 5px 0 0 #7300ff;
 	transition-delay: 0s, 0s, 0.5s, 0.5s;
-  }
-  
-  .raulwwq0-btn::after {
-	content: "";
+}
+
+.raulwwq0-btn::after {
+	content: '';
 	position: absolute;
 	right: -20px;
 	top: 50%;
@@ -1064,249 +1055,283 @@ position: relative;
 	width: 20px;
 	height: 2px;
 	background: #7300ff;
-	box-shadow: -5px -8px 0 #7300ff, 
-				-5px 8px 0 #7300ff;
+	box-shadow: -5px -8px 0 #7300ff, -5px 8px 0 #7300ff;
 	transition: width 0.5s, right 0.5s, height 0.5s, box-shadow 0.5s;
 	transition-delay: 0.5s, 0.5s, 0s, 0s;
-  }
-  
-  .raulwwq0-btn:hover::after {
+}
+
+.raulwwq0-btn:hover::after {
 	width: 60%;
 	height: 102%;
 	right: -2px;
 	box-shadow: -5px 0 0 #7300ff, -5px 0 0 #7300ff;
 	transition-delay: 0s, 0s, 0.5s, 0.5s;
-  }
-  
+}
+
 /* raulwwq0 btn end */
 
 .Srishti-btn-1 {
-  font-size: 16px;
-  font-weight: 200;
-  letter-spacing: 1px;
-  padding: 13px 20px 13px;
-  outline: 0;
-  border: 1px solid rgb(255, 255, 255);
-  cursor: pointer;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+	font-size: 16px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	padding: 13px 20px 13px;
+	outline: 0;
+	border: 1px solid rgb(255, 255, 255);
+	cursor: pointer;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
 	color: white;
 	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
 }
 
 .Srishti-btn-1:after {
-  content: "";
-  background-color: #343432;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
+	content: '';
+	background-color: #343432;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	height: 100%;
+	top: 7px;
+	left: 7px;
+	transition: 0.2s;
 }
 
 .Srishti-btn-1:hover:after {
-  top: 0px;
-  left: 0px;
-	box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+	top: 0px;
+	left: 0px;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+		0 0 20px rgba(255, 255, 255, 0.2);
 	text-shadow: 1px 1px 2px #427388;
 }
 
 @media (min-width: 768px) {
-  .Srishti-btn-1 {
-    padding: 13px 50px 13px;
-  }
+	.Srishti-btn-1 {
+		padding: 13px 50px 13px;
+	}
 }
 
 /* Ola's btn start */
 .ola-btn-11 {
-  background-color: #333333;
-  color: #fff;
-  border: none;
-  padding: 1em 2.5em;
-  position: relative;
-  cursor: pointer;
+	background-color: #333333;
+	color: #fff;
+	border: none;
+	padding: 1em 2.5em;
+	position: relative;
+	cursor: pointer;
 	font-size: 1.2rem;
 	font-weight: 600;
 }
 .ola-btn-11::before {
-  content: 'Hover me';
-  display: grid;
-  place-items: center;
-  color: #333333;
-  position: absolute;
-  inset: 0;
-  background-color: cyan;
-  font-family: inherit;
-  clip-path: circle(50% at -100% 0);
-  transition: clip-path 400ms linear;
+	content: 'Hover me';
+	display: grid;
+	place-items: center;
+	color: #333333;
+	position: absolute;
+	inset: 0;
+	background-color: cyan;
+	font-family: inherit;
+	clip-path: circle(50% at -100% 0);
+	transition: clip-path 400ms linear;
 	font-size: 1.2rem;
 	font-weight: 600;
 }
 .ola-btn-11:hover::before {
-  clip-path: circle(200% at 0 0);
+	clip-path: circle(200% at 0 0);
 }
 /* Ola's btn end */
 
-
 /* cyphers btn start */
-.cypher-btn{
+.cypher-btn {
 	color: #fff;
-	font-size:1.2rem;
+	font-size: 1.2rem;
 	padding: 1em 2.5em;
 	background-color: #2874a6;
 	cursor: pointer;
-	position:relative;
-	border:none;
+	position: relative;
+	border: none;
 }
 
-.cypher-btn::before{
-	content:"";
-    position: absolute;
-	left:-10px;
-	top:-10px;
+.cypher-btn::before {
+	content: '';
+	position: absolute;
+	left: -10px;
+	top: -10px;
 	width: 40px;
 	height: 40px;
 	/* background: #2e86c1;
 	border: 5px solid #2e86c1; */
 	border-top: 5px solid #2e86c1;
 	border-left: 5px solid #2e86c1;
-	transition:all 0.4s;
+	transition: all 0.4s;
 }
 
-.cypher-btn::after{
-	content:"";
-    position: absolute;
-	bottom:-10px;
-	right:-10px;
+.cypher-btn::after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
 	width: 40px;
 	height: 40px;
 	/* background: #2e86c1;
 	border: 5px solid #2e86c1; */
 	border-bottom: 5px solid #2e86c1;
 	border-right: 5px solid #2e86c1;
-	transition:all 0.4s;
+	transition: all 0.4s;
 }
 
-.cypher-btn:hover:before,.cypher-btn:hover:after{
+.cypher-btn:hover:before,
+.cypher-btn:hover:after {
 	width: 100%;
 	height: 100%;
 }
 /* cyphers btn end  */
 
-
 /* *Swaroop btn start */
 .noob-span {
-    position: relative;
-    padding: 4rem 8rem;
-    overflow: hidden;
-		border-radius: 0.5rem;
+	position: relative;
+	padding: 4rem 8rem;
+	overflow: hidden;
+	border-radius: 0.5rem;
 }
 
 .noob-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    /* transform: translateY(-50%); */
-    height: 150%;
-    width: 150%;
-    object-position: center;
-    object-fit: cover;
-    z-index: 10;
-		border-radius: 0.5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	/* transform: translateY(-50%); */
+	height: 150%;
+	width: 150%;
+	object-position: center;
+	object-fit: cover;
+	z-index: 10;
+	border-radius: 0.5rem;
 }
 
 .button-noob {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 20;
-    background: transparent;
-    border: 0px;
-    color: white;
-    font-size: 16px;
-		border-radius: 0.5rem;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: 20;
+	background: transparent;
+	border: 0px;
+	color: white;
+	font-size: 16px;
+	border-radius: 0.5rem;
 }
 
 .button-noob:hover {
-    border: 2px solid green;
+	border: 2px solid green;
 }
 
 .button-noob:focus {
-    border: 4px solid green;
+	border: 4px solid green;
 }
 /* *Swaroop btn end */
 
 /* blurry btn start */
 .blurry-brush-btn:hover,
 .blurry-brush-btn:focus {
-box-shadow: 0 0.5em 0.5em -0.4em #e24091;
--webkit-transform: translateY(-0.25em);
-transform: translateY(-0.25em);
-border-color: #e24091;
-color: #fff;
-border-radius: 50px;
+	box-shadow: 0 0.5em 0.5em -0.4em #e24091;
+	-webkit-transform: translateY(-0.25em);
+	transform: translateY(-0.25em);
+	border-color: #e24091;
+	color: #fff;
+	border-radius: 50px;
 }
 
-.blurry-brush-btn{
--webkit-transition: 0.25s;
-transition: 0.25s;
-background: none;
-border: 2px solid;
-font: inherit;
-line-height: 1;
-margin: 0.5em;
-padding: 1em 2em;
-color: #e24091;
-border-radius: 25px;
+.blurry-brush-btn {
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+	background: none;
+	border: 2px solid;
+	font: inherit;
+	line-height: 1;
+	margin: 0.5em;
+	padding: 1em 2em;
+	color: #e24091;
+	border-radius: 25px;
 }
 
 /* blurry btn end */
 
-.harsh-btn-1{
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+.harsh-btn-1 {
+	border-radius: 4px;
+	background-color: #f4511e;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
 }
 
-.harsh-btn-1 span{
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+.harsh-btn-1 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
 }
 
 .harsh-btn-1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
 }
 
 .harsh-btn-1:hover span {
-  padding-right: 25px;
+	padding-right: 25px;
 }
 
 .harsh-btn-1:hover span:after {
-  opacity: 1;
-  right: 0;
+	opacity: 1;
+	right: 0;
 }
 
+/* Harsh Jain's button starts*/
+.harsh-button-1 {
+	background-color: #343a40;
+	height: 20%;
+	width: 55%;
+	border-radius: 19px;
+	color: #fff;
+	cursor: pointer;
+	padding: 8px 16px;
+}
+
+.harsh-button-1 span {
+	font-size: 20px;
+}
+.harsh-button-1:hover {
+	background-image: linear-gradient(
+		to right,
+		#e7487d,
+		#e7487d 16.65%,
+		#f6c31d 16.65%,
+		#f6c31d 33.3%,
+		#0bffb6 66.6%,
+		#0bffb6 83.25%,
+		#9e40eb 83.25%,
+		#9e40eb 100%,
+		#e7487d 100%
+	);
+	animation: bgmove 2s linear infinite;
+	color: black;
+}
+@keyframes bgmove {
+	to {
+		background-position: 20vw;
+	}
+}
