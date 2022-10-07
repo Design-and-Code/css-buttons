@@ -1271,7 +1271,7 @@ border-radius: 25px;
 
 /* blurry btn end */
 
-.harsh-btn{
+.harsh-btn-1{
   border-radius: 4px;
   background-color: #f4511e;
   border: none;
@@ -1285,14 +1285,14 @@ border-radius: 25px;
   margin: 5px;
 }
 
-.harsh-btn span{
+.harsh-btn-1 span{
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.harsh-btn span:after {
+.harsh-btn-1 span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -1301,11 +1301,11 @@ border-radius: 25px;
   transition: 0.5s;
 }
 
-.harsh-btn:hover span {
+.harsh-btn-1:hover span {
   padding-right: 25px;
 }
 
-.harsh-btn:hover span:after {
+.harsh-btn-1:hover span:after {
   opacity: 1;
   right: 0;
 }
