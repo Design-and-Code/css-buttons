@@ -1468,3 +1468,45 @@ box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 /* ANIKET btn end */
 
 
+/* Nitish btn start */
+.Nitish-btn-26 {
+	display: inline-block;
+	background-color: #7b38d8;
+	border-radius: 10px;
+	border: 4px double #cccccc;
+	color: #eeeeee;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.Nitish-btn-26 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.Nitish-btn-26 span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.Nitish-btn-26:hover {
+	background-color: #f7c2f9;
+}
+.Nitish-btn-26:hover span {
+	padding-right: 25px;
+}
+.Nitish-btn-26:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+/*Nitish's btn end */
+
+
