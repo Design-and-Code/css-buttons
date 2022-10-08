@@ -1724,3 +1724,23 @@ a:focus-visible {
 }
 /*Nitish's btn end */
 
+/*Thiago's btn start*/
+.Okan-btn {
+	background-color: #b4befe;
+	border: none;
+	border-radius: 5px;
+	padding: 20px 30px;
+	transition: .5s;
+	cursor: pointer;
+	font-family: JetBrains, monospace;
+
+}
+.Okan-btn:hover{
+	background-color: #94e2d5;
+	transition: .5s;
+	-webkit-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+/*Thiago's btn start*/
