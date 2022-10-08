@@ -1724,3 +1724,40 @@ a:focus-visible {
 }
 /*Nitish's btn end */
 
+
+/*mitalrs's btn start */
+.mitalrs-btn-27 {
+	width: 200px;
+	height: 60px;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 13px 20px 13px;
+	outline: 0;
+	border: 1px solid white;
+	cursor: pointer;
+	position: relative;
+	top: 20px;
+	background-color: rgba(0, 0, 0, 0);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+  }
+  
+  .mitalrs-btn-27:after {
+	content: "";
+	background-color: #ffe54c;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	height: 100%;
+	top: 7px;
+	left: 7px;
+	transition: 0.2s;
+  }
+  
+  .mitalrs-btn-27:hover:after {
+	top: 0px;
+	left: 0px;
+  }
+/*mitalrs's btn end */
