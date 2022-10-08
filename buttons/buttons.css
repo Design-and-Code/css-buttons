@@ -1424,3 +1424,21 @@ box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 
 /* ANIKET btn end */
 
+/* cyphers btn-2 start */
+.cypher-2{
+	font-size:1.2rem;
+	padding: 1em 2.5em;
+	background-color: #2874a6;
+	cursor: pointer;
+	position:relative;
+	border:none;
+	background-color: #343A40;
+	border-radius: 4px;  
+	color: #fff;
+	padding: 8px 16px;
+}
+
+.cypher-2:hover{
+	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+	animation:slidebg 5s linear infinite;
+ }
