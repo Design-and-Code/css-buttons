@@ -1311,6 +1311,49 @@ border-radius: 25px;
 }
 
 
+
+.ankush-btn-1 {
+	width: 170px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: transparent;
+	border: 3px solid #00d7c3;
+	border-radius: 50px;
+	transition: all 0.15s ease-in-out;  
+	color: black;
+	background-image: linear-gradient(30deg, #00d7c3 50%, transparent 50%);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: 0%;
+  }
+  .ankush-btn-1:hover {
+	color: white;
+	background-color: black;
+	box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+	border: 3px solid #00d7c3;
+	animation: ankush-btn-1-pulse 1s infinite;
+	transition: 0.3s;
+	background-position: 100%;
+  }
+  @keyframes ankush-btn-1-pulse {
+	0% {
+	  transform: scale(1);
+	}
+	70% {
+	  transform: scale(0.9);
+	}
+	100% {
+	  transform: scale(1);
+	}
+}
 /* davidbru-btn-1 or name of button start  */
 .davidbru-btn-1 {
 	position: relative;
@@ -1423,4 +1466,5 @@ box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
 
 /* ANIKET btn end */
+
 
