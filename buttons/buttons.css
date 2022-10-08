@@ -1310,3 +1310,46 @@ border-radius: 25px;
   right: 0;
 }
 
+
+/* ANIKET btn start */
+
+.aniket-btn-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+
+	.aniket-btn-1 {
+
+		color: #00DDEB;
+		border-color: #00DDEB;
+    border-top: 5px;
+		border-left: 5px;
+    font-size: 16px;
+    border-radius: 40px;
+    width: 12em;
+    height: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin-left: 1em;
+	background-color: #000;
+	}
+
+	.aniket-btn-1:hover{
+	box-shadow: 0 0.3rem 0.3rem rgba(0, 255, 255, 0.529);
+	color: white;
+	border-width: 5px solid;
+	margin-bottom: 20px;
+	transition: 0.5s ease;
+	/* background: transparent; */
+}
+
+/* ANIKET btn end */
