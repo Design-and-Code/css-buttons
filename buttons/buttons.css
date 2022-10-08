@@ -1301,7 +1301,7 @@ a:focus-visible {
 }
 
 /* Harsh Jain's button starts*/
-.harsh-button-1 {
+.harsh-jain-button-1 {
 	background-color: #343a40;
 	height: 20%;
 	width: 55%;
@@ -1311,10 +1311,10 @@ a:focus-visible {
 	padding: 8px 16px;
 }
 
-.harsh-button-1 span {
+.harsh-jain-button-1 span {
 	font-size: 20px;
 }
-.harsh-button-1:hover {
+.harsh-jain-button-1:hover {
 	background-image: linear-gradient(
 		to right,
 		#e7487d,
@@ -1335,3 +1335,4 @@ a:focus-visible {
 		background-position: 20vw;
 	}
 }
+/* Harsh Jain's button starts*/
