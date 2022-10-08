@@ -1300,6 +1300,49 @@ a:focus-visible {
 	right: 0;
 }
 
+.ankush-btn-1 {
+	width: 170px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: transparent;
+	border: 3px solid #00d7c3;
+	border-radius: 50px;
+	transition: all 0.15s ease-in-out;  
+	color: black;
+	background-image: linear-gradient(30deg, #00d7c3 50%, transparent 50%);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: 0%;
+  }
+  .ankush-btn-1:hover {
+	color: white;
+	background-color: black;
+	box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+	border: 3px solid #00d7c3;
+	animation: ankush-btn-1-pulse 1s infinite;
+	transition: 0.3s;
+	background-position: 100%;
+  }
+  @keyframes ankush-btn-1-pulse {
+	0% {
+	  transform: scale(1);
+	}
+	70% {
+	  transform: scale(0.9);
+	}
+	100% {
+	  transform: scale(1);
+	}
+}
+
 /* davidbru-btn-1 or name of button start  */
 .davidbru-btn-1 {
 	position: relative;
@@ -1415,6 +1458,7 @@ a:focus-visible {
 }
 
 /* ANIKET btn end */
+
 
 /* Harsh Jain's button starts*/
 .harsh-jain-button-1 {
@@ -1637,3 +1681,46 @@ a:focus-visible {
 	cursor: pointer;
 }
 /* Harsh Jain's button 2 ends*/
+
+
+/* Nitish btn start */
+.Nitish-btn-26 {
+	display: inline-block;
+	background-color: #7b38d8;
+	border-radius: 10px;
+	border: 4px double #cccccc;
+	color: #eeeeee;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.Nitish-btn-26 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.Nitish-btn-26 span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.Nitish-btn-26:hover {
+	background-color: #f7c2f9;
+}
+.Nitish-btn-26:hover span {
+	padding-right: 25px;
+}
+.Nitish-btn-26:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+/*Nitish's btn end */
+
