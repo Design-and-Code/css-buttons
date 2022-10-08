@@ -1310,6 +1310,7 @@ border-radius: 25px;
   right: 0;
 }
 
+
 /* davidbru-btn-1 or name of button start  */
 .davidbru-btn-1 {
 	position: relative;
@@ -1346,3 +1347,80 @@ border-radius: 25px;
 	color: white;
 }
 /* davidbru-btn-1 or name of button end */
+
+
+/* Mayank1170 btn start */
+
+.Mayank1170.color-10 {
+    background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.Mayank1170:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.Mayank1170 {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+/* Mayank1170 btn end */
+
+
+/* ANIKET btn start */
+
+.aniket-btn-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+
+	.aniket-btn-1 {
+
+		color: #00DDEB;
+		border-color: #00DDEB;
+    border-top: 5px;
+		border-left: 5px;
+    font-size: 16px;
+    border-radius: 40px;
+    width: 12em;
+    height: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin-left: 1em;
+	background-color: #000;
+	}
+
+	.aniket-btn-1:hover{
+	box-shadow: 0 0.3rem 0.3rem rgba(0, 255, 255, 0.529);
+	color: white;
+	border-width: 5px solid;
+	margin-bottom: 20px;
+	transition: 0.5s ease;
+	/* background: transparent; */
+}
+
+/* ANIKET btn end */
+
