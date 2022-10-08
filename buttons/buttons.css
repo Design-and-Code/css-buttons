@@ -1452,3 +1452,188 @@ a:focus-visible {
 	}
 }
 /* Harsh Jain's button starts*/
+
+/* Harsh Jain's button 2 starts*/
+
+.harsh-jain-button-2:hover {
+	border: none;
+	transform: translatey(1em);
+	cursor: pointer;
+}
+
+.harsh-jain-button-2 {
+	position: relative;
+	height: 50em;
+	width: 50em;
+	background: #93ccb3;
+	border: none;
+	border-radius: 10%;
+	border-bottom: 4em solid #254d4d;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 3px;
+}
+.harsh-jain-button-2:after {
+	content: '';
+	position: absolute;
+	background: white;
+	height: 14em;
+	width: 10em;
+	border-radius: 80% 80% 40% 40%;
+
+	top: 18em;
+	left: 9em;
+
+	box-shadow: 23em 0 white;
+}
+.harsh-jain-button-2:before {
+	content: '';
+	position: absolute;
+	background: white;
+	height: 5em;
+	width: 3em;
+	border-radius: 50%;
+	z-index: 2;
+	top: 21em;
+	left: 14em;
+	box-shadow: 23em 0 white;
+}
+.eyeballs {
+	position: relative;
+	background: #ff6666;
+	height: 9em;
+	width: 6em;
+	border-radius: 60% 60% 90% 90%;
+
+	border-bottom: 2em solid red;
+	border-left: 1.8em solid #e60000;
+	border-right: 1.8em solid #e60000;
+
+	z-index: 1;
+	left: -10.4em;
+	top: 7.5em;
+}
+.eyeballs::after {
+	content: '';
+	position: absolute;
+	background: #ff6666;
+	height: 7em;
+	width: 2.5em;
+	border-radius: 60% 60% 90% 90%;
+
+	border-bottom: 2em solid red;
+	border-left: 1.8em solid #e60000;
+	border-right: 1.8em solid #e60000;
+
+	z-index: 1;
+	left: 21.2em;
+}
+
+.nose {
+	position: relative;
+	background: #142d24;
+	height: 3em;
+	width: 1em;
+	border-radius: 50%;
+	top: 6.5em;
+	left: -3.4em;
+	transform: rotate(-20deg);
+}
+.nose::after {
+	content: '';
+	position: absolute;
+	background: #142d24;
+	height: 3em;
+	width: 1em;
+	border-radius: 50%;
+	transform: rotate(40deg);
+
+	left: 6em;
+	top: 2.25em;
+}
+
+#mouth {
+	position: relative;
+	z-index: 2;
+}
+
+.mouth-brace:before,
+.mouth-brace:after {
+	content: '';
+	width: 30%;
+	height: 1.3em;
+	position: absolute;
+	display: block;
+	z-index: 2;
+}
+
+#mouth-left:before {
+	border-bottom: 0.7em solid #142d24;
+	border-bottom-left-radius: 20px;
+	margin-left: -40%;
+	margin-top: 20.5em;
+	z-index: 2;
+}
+
+#mouth-left:after {
+	border-top: 0.7em solid #142d24;
+	border-top-right-radius: 20px;
+	margin-left: -30%;
+	margin-top: 21.9em;
+}
+
+#mouth-right:before {
+	border-top: 0.7em solid #142d24;
+	border-top-left-radius: 20px;
+	margin-left: 0%;
+	margin-top: 21.9em;
+}
+
+#mouth-right:after {
+	border-bottom: 0.7em solid #142d24;
+	border-bottom-right-radius: 20px;
+	margin-left: 10%;
+	margin-top: 20.5em;
+}
+.eyebrow {
+	position: relative;
+	background: #33715a;
+	height: 3em;
+	width: 2.5em;
+	border-radius: 30% 40% 60% 20%;
+	top: -11.5em;
+	left: -6.4em;
+	transform: rotate(-20deg);
+}
+.eyebrow::after {
+	content: '';
+	position: absolute;
+	background: #33715a;
+	height: 15em;
+	width: 10em;
+	border-radius: 30% 50% 40% 60%;
+	transform: rotate(40deg);
+
+	left: 10em;
+	top: -5em;
+}
+.eyebrow::before {
+	content: '';
+	position: absolute;
+	background: #33715a;
+	height: 7em;
+	width: 5em;
+	border-radius: 200% 30% 50% 60%;
+	transform: rotate(40deg);
+
+	left: 4em;
+	top: -8em;
+}
+.bulba:hover {
+	border: none;
+	transform: translatey(1em);
+	cursor: pointer;
+}
+/* Harsh Jain's button 2 ends*/
