@@ -1768,3 +1768,24 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 
 /* cypherrs 2nd bt end  */
 
+
+
+/* haldaranup 1st button starts here */
+.haldaranup-btn-1{
+	font-size: 1.25rem;
+	padding: 16px 36px;
+	background-color: rgb(117, 0, 172);
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	color: #ffffff;
+	transition: all 500ms;
+}
+
+.haldaranup-btn-1:hover{
+	background-color: rgb(255, 238, 0);
+	color: #000757;
+}
+
+/* haldaranup 1st button ends here */
+
