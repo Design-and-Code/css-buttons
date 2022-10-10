@@ -80,18 +80,18 @@ a:focus-visible {
 	position: relative;
 }
 
-.button-2 > span {
+.button-2>span {
 	color: var(--font-color-black);
 
 	overflow: hidden;
 }
 
-.button-2 > span > span {
+.button-2>span>span {
 	color: var(--font-color-black);
 	overflow: hidden;
 }
 
-.button-2:hover > span > span {
+.button-2:hover>span>span {
 	color: var(--font-color-black);
 	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
@@ -157,11 +157,11 @@ a:focus-visible {
 	font-weight: 500;
 }
 
-.button-4 > span {
+.button-4>span {
 	display: inline-block;
 }
 
-.button-4:hover > span {
+.button-4:hover>span {
 	opacity: 0;
 }
 
@@ -218,12 +218,12 @@ a:focus-visible {
 	border: 2px solid #000;
 }
 
-.button-5 > span {
+.button-5>span {
 	display: inline-block;
 	transition: opacity 0.1s;
 }
 
-.button-5:hover > span {
+.button-5:hover>span {
 	opacity: 0;
 }
 
@@ -280,12 +280,10 @@ a:focus-visible {
 	border-radius: 0.8rem;
 	padding: 1.5rem 2.8rem;
 	background-color: rgb(110, 217, 249);
-	background: linear-gradient(
-		165deg,
-		rgb(32, 114, 247) 20%,
-		rgb(110, 217, 249) 45%,
-		rgb(32, 114, 247) 80%
-	);
+	background: linear-gradient(165deg,
+			rgb(32, 114, 247) 20%,
+			rgb(110, 217, 249) 45%,
+			rgb(32, 114, 247) 80%);
 	background-size: 350%;
 	background-position: left;
 	box-shadow: 0 0 0.2rem rgba(110, 217, 249, 0.8),
@@ -322,18 +320,16 @@ a:focus-visible {
 
 .button-8:before {
 	content: '';
-	background: linear-gradient(
-		45deg,
-		#ff0000,
-		#ff7300,
-		#fffb00,
-		#48ff00,
-		#00ffd5,
-		#002bff,
-		#7a00ff,
-		#ff00c8,
-		#ff0000
-	);
+	background: linear-gradient(45deg,
+			#ff0000,
+			#ff7300,
+			#fffb00,
+			#48ff00,
+			#00ffd5,
+			#002bff,
+			#7a00ff,
+			#ff00c8,
+			#ff0000);
 	position: absolute;
 	top: -2px;
 	left: -2px;
@@ -634,6 +630,7 @@ a:focus-visible {
 	overflow: hidden;
 	margin-right: 10px;
 }
+
 .Mahekjain-btn-10 a:hover {
 	background: #03e9f4;
 	color: #050801;
@@ -641,16 +638,20 @@ a:focus-visible {
 		0 0 200px #03e9f4;
 	-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
+
 .Mahekjain-btn-10 a:nth-child(1) {
 	filter: hue-rotate(270deg);
 }
+
 .Mahekjain-btn-10 a:nth-child(2) {
 	filter: hue-rotate(110deg);
 }
+
 .Mahekjain-btn-10 a span {
 	position: absolute;
 	display: block;
 }
+
 .Mahekjain-btn-10 a span:nth-child(1) {
 	top: 0;
 	left: 0;
@@ -659,15 +660,18 @@ a:focus-visible {
 	background: linear-gradient(90deg, transparent, #03e9f4);
 	animation: animate1 1s linear infinite;
 }
+
 @keyframes animate1 {
 	0% {
 		left: -100%;
 	}
+
 	50%,
 	100% {
 		left: 100%;
 	}
 }
+
 .Mahekjain-btn-10 a span:nth-child(2) {
 	top: -100%;
 	right: 0;
@@ -677,15 +681,18 @@ a:focus-visible {
 	animation: animate2 1s linear infinite;
 	animation-delay: 0.25s;
 }
+
 @keyframes animate2 {
 	0% {
 		top: -100%;
 	}
+
 	50%,
 	100% {
 		top: 100%;
 	}
 }
+
 .Mahekjain-btn-10 a span:nth-child(3) {
 	bottom: 0;
 	right: 0;
@@ -695,10 +702,12 @@ a:focus-visible {
 	animation: animate3 1s linear infinite;
 	animation-delay: 0.5s;
 }
+
 @keyframes animate3 {
 	0% {
 		right: -100%;
 	}
+
 	50%,
 	100% {
 		right: 100%;
@@ -763,10 +772,12 @@ a:focus-visible {
 	animation: animate4 1s linear infinite;
 	animation-delay: 0.75s;
 }
+
 @keyframes animate4 {
 	0% {
 		bottom: -100%;
 	}
+
 	50%,
 	100% {
 		bottom: 100%;
@@ -840,6 +851,7 @@ a:focus-visible {
 
 	transition: 0.5s ease, color 1s ease;
 }
+
 .mahi-btn-2:hover {
 	background-color: #fbf2cf;
 	color: black;
@@ -854,6 +866,7 @@ a:focus-visible {
 	box-shadow: 0 6px #323232;
 	transition: none;
 }
+
 .mahi-btn-3:hover {
 	box-shadow: 0 4px #323232;
 	top: 2px;
@@ -876,9 +889,11 @@ a:focus-visible {
 	0% {
 		transform: scale(1);
 	}
+
 	70% {
 		transform: scale(0.9);
 	}
+
 	100% {
 		transform: scale(1);
 	}
@@ -898,16 +913,20 @@ a:focus-visible {
 	0% {
 		border-top: 4px solid white;
 	}
+
 	25% {
 		border-right: 4px solid white;
 	}
+
 	50% {
 		border-bottom: 4px solid white;
 	}
+
 	100% {
 		border-left: 4px solid white;
 	}
 }
+
 .button-9 :hover {
 	padding: 10px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -925,6 +944,7 @@ a:focus-visible {
 	font-weight: 600;
 	transition: 0.5s;
 }
+
 .manas-btn-10:hover {
 	border: none;
 	font-size: 200%;
@@ -988,6 +1008,7 @@ a:focus-visible {
 .ImOnlyYisus-btn:hover::before {
 	width: 100%;
 }
+
 /*ImOnlyYisus Btn CSS ENDS*/
 
 /* raulwwq0 btn start */
@@ -1124,6 +1145,7 @@ a:focus-visible {
 	font-size: 1.2rem;
 	font-weight: 600;
 }
+
 .ola-btn-11::before {
 	content: 'Hover me';
 	display: grid;
@@ -1138,9 +1160,11 @@ a:focus-visible {
 	font-size: 1.2rem;
 	font-weight: 600;
 }
+
 .ola-btn-11:hover::before {
 	clip-path: circle(200% at 0 0);
 }
+
 /* Ola's btn end */
 
 /* cyphers btn start */
@@ -1187,6 +1211,7 @@ a:focus-visible {
 	width: 100%;
 	height: 100%;
 }
+
 /* cyphers btn end  */
 
 /* *Swaroop btn start */
@@ -1233,6 +1258,7 @@ a:focus-visible {
 .button-noob:focus {
 	border: 4px solid green;
 }
+
 /* *Swaroop btn end */
 
 /* blurry btn start */
@@ -1315,14 +1341,15 @@ a:focus-visible {
 	background-color: transparent;
 	border: 3px solid #00d7c3;
 	border-radius: 50px;
-	transition: all 0.15s ease-in-out;  
+	transition: all 0.15s ease-in-out;
 	color: black;
 	background-image: linear-gradient(30deg, #00d7c3 50%, transparent 50%);
 	background-size: 500px;
 	background-repeat: no-repeat;
 	background-position: 0%;
-  }
-  .ankush-btn-1:hover {
+}
+
+.ankush-btn-1:hover {
 	color: white;
 	background-color: black;
 	box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
@@ -1330,16 +1357,19 @@ a:focus-visible {
 	animation: ankush-btn-1-pulse 1s infinite;
 	transition: 0.3s;
 	background-position: 100%;
-  }
-  @keyframes ankush-btn-1-pulse {
+}
+
+@keyframes ankush-btn-1-pulse {
 	0% {
-	  transform: scale(1);
+		transform: scale(1);
 	}
+
 	70% {
-	  transform: scale(0.9);
+		transform: scale(0.9);
 	}
+
 	100% {
-	  transform: scale(1);
+		transform: scale(1);
 	}
 }
 
@@ -1371,6 +1401,7 @@ a:focus-visible {
 	transition: 1s ease-in-out;
 	background: #4fda62;
 }
+
 .davidbru-btn-1:hover svg {
 	stroke-dashoffset: -480;
 }
@@ -1378,20 +1409,20 @@ a:focus-visible {
 .davidbru-btn-1 span {
 	color: white;
 }
+
 /* davidbru-btn-1 or name of button end */
 
 /* Mayank1170 btn start */
 
 .Mayank1170.color-10 {
-	background-image: linear-gradient(
-		to right,
-		#ed6ea0,
-		#ec8c69,
-		#f7186a,
-		#fbb03b
-	);
+	background-image: linear-gradient(to right,
+			#ed6ea0,
+			#ec8c69,
+			#f7186a,
+			#fbb03b);
 	box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
+
 .Mayank1170:hover {
 	background-position: 100% 0;
 	moz-transition: all 0.4s ease-in-out;
@@ -1399,6 +1430,7 @@ a:focus-visible {
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .Mayank1170 {
 	width: 200px;
 	font-size: 16px;
@@ -1415,6 +1447,7 @@ a:focus-visible {
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 /* Mayank1170 btn end */
 
 /* ANIKET btn start */
@@ -1473,27 +1506,28 @@ a:focus-visible {
 .harsh-jain-button-1 span {
 	font-size: 20px;
 }
+
 .harsh-jain-button-1:hover {
-	background-image: linear-gradient(
-		to right,
-		#e7487d,
-		#e7487d 16.65%,
-		#f6c31d 16.65%,
-		#f6c31d 33.3%,
-		#0bffb6 66.6%,
-		#0bffb6 83.25%,
-		#9e40eb 83.25%,
-		#9e40eb 100%,
-		#e7487d 100%
-	);
+	background-image: linear-gradient(to right,
+			#e7487d,
+			#e7487d 16.65%,
+			#f6c31d 16.65%,
+			#f6c31d 33.3%,
+			#0bffb6 66.6%,
+			#0bffb6 83.25%,
+			#9e40eb 83.25%,
+			#9e40eb 100%,
+			#e7487d 100%);
 	animation: bgmove 2s linear infinite;
 	color: black;
 }
+
 @keyframes bgmove {
 	to {
 		background-position: 20vw;
 	}
 }
+
 /* Harsh Jain's button starts*/
 
 /* Harsh Jain's button 2 starts*/
@@ -1518,6 +1552,7 @@ a:focus-visible {
 	align-items: center;
 	font-size: 3px;
 }
+
 .harsh-jain-button-2:after {
 	content: '';
 	position: absolute;
@@ -1531,6 +1566,7 @@ a:focus-visible {
 
 	box-shadow: 23em 0 white;
 }
+
 .harsh-jain-button-2:before {
 	content: '';
 	position: absolute;
@@ -1543,6 +1579,7 @@ a:focus-visible {
 	left: 14em;
 	box-shadow: 23em 0 white;
 }
+
 .eyeballs {
 	position: relative;
 	background: #ff6666;
@@ -1558,6 +1595,7 @@ a:focus-visible {
 	left: -10.4em;
 	top: 7.5em;
 }
+
 .eyeballs::after {
 	content: '';
 	position: absolute;
@@ -1584,6 +1622,7 @@ a:focus-visible {
 	left: -3.4em;
 	transform: rotate(-20deg);
 }
+
 .nose::after {
 	content: '';
 	position: absolute;
@@ -1640,6 +1679,7 @@ a:focus-visible {
 	margin-left: 10%;
 	margin-top: 20.5em;
 }
+
 .eyebrow {
 	position: relative;
 	background: #33715a;
@@ -1650,6 +1690,7 @@ a:focus-visible {
 	left: -6.4em;
 	transform: rotate(-20deg);
 }
+
 .eyebrow::after {
 	content: '';
 	position: absolute;
@@ -1662,6 +1703,7 @@ a:focus-visible {
 	left: 10em;
 	top: -5em;
 }
+
 .eyebrow::before {
 	content: '';
 	position: absolute;
@@ -1674,11 +1716,13 @@ a:focus-visible {
 	left: 4em;
 	top: -8em;
 }
+
 .bulba:hover {
 	border: none;
 	transform: translatey(1em);
 	cursor: pointer;
 }
+
 /* Harsh Jain's button 2 ends*/
 
 
@@ -1697,12 +1741,14 @@ a:focus-visible {
 	cursor: pointer;
 	margin: 5px;
 }
+
 .Nitish-btn-26 span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
 }
+
 .Nitish-btn-26 span:after {
 	content: '\00bb';
 	position: absolute;
@@ -1711,16 +1757,20 @@ a:focus-visible {
 	right: -20px;
 	transition: 0.5s;
 }
+
 .Nitish-btn-26:hover {
 	background-color: #f7c2f9;
 }
+
 .Nitish-btn-26:hover span {
 	padding-right: 25px;
 }
+
 .Nitish-btn-26:hover span:after {
 	opacity: 1;
 	right: 0;
 }
+
 /*Nitish's btn end */
 
 
@@ -1735,11 +1785,12 @@ a:focus-visible {
 	font-family: JetBrains, monospace;
 
 }
-.Okan-btn-1:hover{
+
+.Okan-btn-1:hover {
 	background-color: #94e2d5;
 	transition: .5s;
-	-webkit-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0);
+	-webkit-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 
@@ -1747,29 +1798,29 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 
 
 /* cyphers 2nd btn start */
-.cypher-2-btn{
-	font-size:1.2rem;
+.cypher-2-btn {
+	font-size: 1.2rem;
 	padding: 1em 2.5em;
 	background-color: #2874a6;
 	cursor: pointer;
-	position:relative;
-	border:none;
+	position: relative;
+	border: none;
 	background-color: #343A40;
-	border-radius: 4px;  
+	border-radius: 4px;
 	color: #fff;
 	padding: 8px 16px;
 }
 
-.cypher-2-btn:hover{
+.cypher-2-btn:hover {
 	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-	animation:slidebg 5s linear infinite;
+	animation: slidebg 5s linear infinite;
 }
 
 /* cypherrs 2nd bt end  */
 
 
 /* Deepak Kumar btn start */
-  .DeepakKumar-button-31 {
+.DeepakKumar-button-31 {
 	position: absolute;
 	transform: translate(-50%, -50%);
 	padding: 1em 1em;
@@ -1827,15 +1878,15 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 
 
 /* Shridhar's btn start */
-.shridhar-btn{
-	font-size:1.2rem;
+.shridhar-btn {
+	font-size: 1.2rem;
 	cursor: pointer;
-	position:relative;
+	position: relative;
 	display: flex;
 	transition: 1s;
 }
 
-.shridhar-btn::before{
+.shridhar-btn::before {
 	content: 'Follow';
 	display: flex;
 	justify-content: center;
@@ -1846,16 +1897,17 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	width: 100%;
 	height: 100%;
 	z-index: 10;
-	background: rgba(40,40, 40,1);
+	background: rgba(40, 40, 40, 1);
 	transition: 0.2s;
 	border-radius: 3px;
 }
-.shridhar-btn:hover::before{
+
+.shridhar-btn:hover::before {
 	opacity: 0;
 	pointer-events: none;
 }
 
-.shridhar-btn > button {
+.shridhar-btn>button {
 	width: 50%;
 	padding: 1rem 1.5rem;
 	border: 0px;
@@ -1865,18 +1917,18 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	cursor: pointer;
 }
 
-.shridhar-btn > button:hover {
+.shridhar-btn>button:hover {
 	filter: brightness(200%);
 }
 
 
-.shridhar-btn-youtube{
+.shridhar-btn-youtube {
 	background: rgb(255, 0, 0);
 	border-radius: 5px 0px 0px 5px;
 }
 
 
-.shridhar-btn-twitter{
+.shridhar-btn-twitter {
 	background: rgb(29, 161, 242);
 	border-radius: 0px 5px 5px 0px;
 }
@@ -1886,7 +1938,7 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 
 
 /* haldaranup 1st button starts here */
-.haldaranup-btn-1{
+.haldaranup-btn-1 {
 	font-size: 1.25rem;
 	padding: 16px 36px;
 	background-color: rgb(117, 0, 172);
@@ -1897,10 +1949,57 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	transition: all 500ms;
 }
 
-.haldaranup-btn-1:hover{
+.haldaranup-btn-1:hover {
 	background-color: rgb(255, 238, 0);
 	color: #000757;
 }
 
 /* haldaranup 1st button ends here */
 
+
+/* Sairam Kaushik's button css starts*/
+
+.sairam_btn {
+	background: #1AAB8A;
+	color: #fff;
+	border: none;
+	position: relative;
+	height: 60px;
+	font-size: 1.6em;
+	padding: 0 2em;
+	cursor: pointer;
+	transition: 800ms ease all;
+	outline: none;
+}
+
+.sairam_btn:hover {
+	background: #fff;
+	color: #1AAB8A;
+}
+
+.sairam_btn:before,
+.sairam_btn:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 2px;
+	width: 0;
+	background: #1AAB8A;
+	transition: 400ms ease all;
+}
+
+.sairam_btn:after {
+	right: inherit;
+	top: inherit;
+	left: 0;
+	bottom: 0;
+}
+
+.sairam_btn:hover:before,
+.sairam_btn:hover:after {
+	width: 100%;
+	transition: 800ms ease all;
+}
+
+/* Sairam Kaushik's button css ends*/
