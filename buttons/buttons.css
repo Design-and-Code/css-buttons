@@ -1945,7 +1945,9 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 }
 
 .button-Shani:hover {
-	color: #FFF;
+	font-size: large;
+	color: rgb(54, 20, 20);
+	font-weight: 300;
 	cursor: pointer;
 }
 
