@@ -1459,7 +1459,6 @@ a:focus-visible {
 
 /* ANIKET btn end */
 
-
 /* Harsh Jain's button starts*/
 .harsh-jain-button-1 {
 	background-color: #343a40;
@@ -1767,6 +1766,64 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 }
 
 /* cypherrs 2nd bt end  */
+
+
+/* Deepak Kumar btn start */
+  .DeepakKumar-button-31 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	padding: 1em 1em;
+	color: white;
+	border: none;
+	background: none;
+	top: 50%;
+	left: 50%;
+	font-size: 20px;
+}
+
+.DeepakKumar-button-31:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00a7fb;
+	z-index: -1;
+	transition: transform 0.6s;
+	transform-origin: bottom right;
+	transform: scale(0);
+}
+
+.DeepakKumar-button-31:hover:before {
+	transition: transform 0.5s;
+	transform-origin: top left;
+	transform: scale(1);
+}
+
+.DeepakKumar-button-31:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: 2px solid #fff;
+	box-sizing: border - box;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: top left;
+	transform: scale(1);
+}
+
+.DeepakKumar-button-31:hover:after {
+	transition: transform 0.6s;
+	transform-origin: bottom right;
+	transform: scale(0);
+}
+
+/* Deepak Kumar btn end */
 
 
 /* Shridhar's btn start */
