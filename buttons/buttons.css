@@ -1724,6 +1724,28 @@ a:focus-visible {
 /*Nitish's btn end */
 
 
+/*Thiago's btn start*/
+.Okan-btn-1 {
+	background-color: #b4befe;
+	border: none;
+	border-radius: 5px;
+	padding: 20px 30px;
+	transition: .5s;
+	cursor: pointer;
+	font-family: JetBrains, monospace;
+
+}
+.Okan-btn-1:hover{
+	background-color: #94e2d5;
+	transition: .5s;
+	-webkit-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+/*Thiago's btn start*/
+
+
 /* cyphers 2nd btn start */
 .cypher-2-btn{
 	font-size:1.2rem;
@@ -1744,6 +1766,7 @@ a:focus-visible {
 }
 
 /* cypherrs 2nd bt end  */
+
 
 /* Deepak Kumar btn start */
   .DeepakKumar-button-31 {
@@ -1801,3 +1824,83 @@ a:focus-visible {
 }
 
 /* Deepak Kumar btn end */
+
+
+/* Shridhar's btn start */
+.shridhar-btn{
+	font-size:1.2rem;
+	cursor: pointer;
+	position:relative;
+	display: flex;
+	transition: 1s;
+}
+
+.shridhar-btn::before{
+	content: 'Follow';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background: rgba(40,40, 40,1);
+	transition: 0.2s;
+	border-radius: 3px;
+}
+.shridhar-btn:hover::before{
+	opacity: 0;
+	pointer-events: none;
+}
+
+.shridhar-btn > button {
+	width: 50%;
+	padding: 1rem 1.5rem;
+	border: 0px;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.shridhar-btn > button:hover {
+	filter: brightness(200%);
+}
+
+
+.shridhar-btn-youtube{
+	background: rgb(255, 0, 0);
+	border-radius: 5px 0px 0px 5px;
+}
+
+
+.shridhar-btn-twitter{
+	background: rgb(29, 161, 242);
+	border-radius: 0px 5px 5px 0px;
+}
+
+/* Shridhar's btn end  */
+
+
+
+/* haldaranup 1st button starts here */
+.haldaranup-btn-1{
+	font-size: 1.25rem;
+	padding: 16px 36px;
+	background-color: rgb(117, 0, 172);
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	color: #ffffff;
+	transition: all 500ms;
+}
+
+.haldaranup-btn-1:hover{
+	background-color: rgb(255, 238, 0);
+	color: #000757;
+}
+
+/* haldaranup 1st button ends here */
+
