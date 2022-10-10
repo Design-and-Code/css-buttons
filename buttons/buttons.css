@@ -1927,3 +1927,45 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 }
 /* Nitish-btn-2 end */
 
+
+/* Shani button starts */
+
+.button-Shani {
+	width: 60%;
+	height: 20%;
+	color: white;
+	background: transparent;
+	position: relative;
+	transition: ease-out 0.3s;
+	border: 1px solid #43fbf2;
+	border-radius: 3px;
+	font-size: 15px;
+	outline: none;
+	z-index: 1;
+}
+
+.button-Shani:hover {
+	font-size: large;
+	color: rgb(54, 20, 20);
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.button-Shani::before {
+	transition: 0.3s all ease;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 50%;
+	left: 50%;
+	content: "";
+	background-color: #43fbf2;
+}
+
+.button-Shani:hover::before {
+	transition: 0.4s all ease;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	z-index: -1;
+}
