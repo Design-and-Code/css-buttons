@@ -1982,4 +1982,18 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	background-color: yellow;
 	transform: all 2s;
 }
+/* Sumit2 btn end */
+
 /* Sumit-btn-2 start */
+.Sumit-btn-2 {
+	border: 3px solid rgb(66, 16, 147);
+	width: 250px;
+	padding: 30px;
+	border-radius: 100%;
+	background-color: red;
+	font-size: 30px;
+}
+.Sumit-btn-2:hover{
+	background-color: gray;
+}
+/* Sumit-btn-2 end */
