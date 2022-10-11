@@ -2047,3 +2047,53 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 
 /* Sumit-btn-3 end */
 
+/* cypher's btn-3 start */
+
+.cypher-btn-3{
+	padding: 6px;
+	padding-bottom: 0.5em;
+	position: relative;
+	padding-top: 0.5em;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	background-color: transparent;
+	transition: 0.3s;
+}
+
+.cypher-btn-3::after {
+	content: '';
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 10%;
+	height: 5%;
+	transition: 0.3s;
+}
+
+.cypher-btn-3::before {
+	content: '';
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10%;
+	height: 5%;
+	transition: 0.3s;
+}
+
+.cypher-btn-3:hover {
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+		0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+.cypher-btn-3:hover::after {
+	width: 100%;
+}
+
+.cypher-btn-3::before {
+	width: 100%;
+}
+/* cypher's btn-3 end*/
