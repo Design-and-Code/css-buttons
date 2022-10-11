@@ -1768,6 +1768,39 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 /* cypherrs 2nd bt end  */
 
 
+/* kkartik07's 1st btn start */
+.kkartik07-btn-1 {
+	padding: 18px 32px;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	cursor: pointer;
+	margin: 8px 15px;
+	transition: 0.2s ease;
+	background: #003877d5;
+	color: rgba(255, 255, 255, 0.756);
+	position: relative;
+	overflow: hidden;
+	box-shadow: rgba(110, 110, 119, 0.452) 0px 8px 30px 0px;
+  }
+  .kkartik07-btn-1::before {
+	width: 200%;
+	height: 200%;
+	content: "";
+	transform: rotate(-45deg);
+	position: absolute;
+	top: -10%;
+	left: -180%;
+	background: rgba(119, 129, 238, 0.2);
+	transition: 0.3s ease-in-out;
+  }
+  .kkartik07-btn-1:hover::before {
+	left: 55%;
+  }
+/* kkartik07's 1st btn end */
+
+
 /* Deepak Kumar btn start */
   .DeepakKumar-button-31 {
 	position: absolute;
@@ -2013,3 +2046,4 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 }
 
 /* Sumit-btn-3 end */
+
