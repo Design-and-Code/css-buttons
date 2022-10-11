@@ -1459,7 +1459,6 @@ a:focus-visible {
 
 /* ANIKET btn end */
 
-
 /* Harsh Jain's button starts*/
 .harsh-jain-button-1 {
 	background-color: #343a40;
@@ -1725,6 +1724,28 @@ a:focus-visible {
 /*Nitish's btn end */
 
 
+/*Thiago's btn start*/
+.Okan-btn-1 {
+	background-color: #b4befe;
+	border: none;
+	border-radius: 5px;
+	padding: 20px 30px;
+	transition: .5s;
+	cursor: pointer;
+	font-family: JetBrains, monospace;
+
+}
+.Okan-btn-1:hover{
+	background-color: #94e2d5;
+	transition: .5s;
+	-webkit-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+/*Thiago's btn start*/
+
+
 /* cyphers 2nd btn start */
 .cypher-2-btn{
 	font-size:1.2rem;
@@ -1745,6 +1766,7 @@ a:focus-visible {
 }
 
 /* cypherrs 2nd bt end  */
+
 
 /* kkartik07's 1st btn start */
 .kkartik07-btn-1 {
@@ -1777,3 +1799,251 @@ a:focus-visible {
 	left: 55%;
   }
 /* kkartik07's 1st btn end */
+
+
+/* Deepak Kumar btn start */
+  .DeepakKumar-button-31 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	padding: 1em 1em;
+	color: white;
+	border: none;
+	background: none;
+	top: 50%;
+	left: 50%;
+	font-size: 20px;
+}
+
+.DeepakKumar-button-31:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00a7fb;
+	z-index: -1;
+	transition: transform 0.6s;
+	transform-origin: bottom right;
+	transform: scale(0);
+}
+
+.DeepakKumar-button-31:hover:before {
+	transition: transform 0.5s;
+	transform-origin: top left;
+	transform: scale(1);
+}
+
+.DeepakKumar-button-31:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: 2px solid #fff;
+	box-sizing: border - box;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: top left;
+	transform: scale(1);
+}
+
+.DeepakKumar-button-31:hover:after {
+	transition: transform 0.6s;
+	transform-origin: bottom right;
+	transform: scale(0);
+}
+
+/* Deepak Kumar btn end */
+
+
+/* Shridhar's btn start */
+.shridhar-btn{
+	font-size:1.2rem;
+	cursor: pointer;
+	position:relative;
+	display: flex;
+	transition: 1s;
+}
+
+.shridhar-btn::before{
+	content: 'Follow';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background: rgba(40,40, 40,1);
+	transition: 0.2s;
+	border-radius: 3px;
+}
+.shridhar-btn:hover::before{
+	opacity: 0;
+	pointer-events: none;
+}
+
+.shridhar-btn > button {
+	width: 50%;
+	padding: 1rem 1.5rem;
+	border: 0px;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.shridhar-btn > button:hover {
+	filter: brightness(200%);
+}
+
+
+.shridhar-btn-youtube{
+	background: rgb(255, 0, 0);
+	border-radius: 5px 0px 0px 5px;
+}
+
+
+.shridhar-btn-twitter{
+	background: rgb(29, 161, 242);
+	border-radius: 0px 5px 5px 0px;
+}
+
+/* Shridhar's btn end  */
+
+
+
+/* haldaranup 1st button starts here */
+.haldaranup-btn-1{
+	font-size: 1.25rem;
+	padding: 16px 36px;
+	background-color: rgb(117, 0, 172);
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	color: #ffffff;
+	transition: all 500ms;
+}
+
+.haldaranup-btn-1:hover{
+	background-color: rgb(255, 238, 0);
+	color: #000757;
+}
+
+/* haldaranup 1st button ends here */
+/* Nitish-btn-2 start */
+.Nitish-btn-2{
+	display: inline-block;
+	background-color: #7b38d8;
+	border-radius: 50px;
+	border: 4px solid #cccccc;
+	color: #eeeeee;
+	text-align: center;
+	font-size: 28px;
+	padding: 10px;
+	width: 150px;
+	cursor: pointer;
+	margin: 5px;
+
+}
+.Nitish-btn-2:hover{
+	border: 4px solid #ea972a;
+	background-color: #90d838;
+	color: #000000;
+	border-radius: 0%;
+	transition: all 0.5s;
+}
+/* Nitish-btn-2 end */
+
+
+/* Shani button starts */
+
+.button-Shani {
+	width: 60%;
+	height: 20%;
+	color: white;
+	background: transparent;
+	position: relative;
+	transition: ease-out 0.3s;
+	border: 1px solid #43fbf2;
+	border-radius: 3px;
+	font-size: 15px;
+	outline: none;
+	z-index: 1;
+}
+
+.button-Shani:hover {
+	font-size: large;
+	color: rgb(54, 20, 20);
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.button-Shani::before {
+	transition: 0.3s all ease;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 50%;
+	left: 50%;
+	content: "";
+	background-color: #43fbf2;
+}
+
+.button-Shani:hover::before {
+	transition: 0.4s all ease;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	z-index: -1;
+}
+
+/* Sumit1 btn start */
+.Sumit-btn-1{
+	background-color: #26d023;
+	border: 3px solid red;
+	width: 200px;
+	padding: 20px;
+	font-size: 30px;
+}
+.Sumit-btn-1:hover{
+	background-color: yellow;
+	transform: all 2s;
+}
+/* Sumit2 btn end */
+
+/* Sumit-btn-2 start */
+.Sumit-btn-2 {
+	border: 3px solid rgb(66, 16, 147);
+	width: 250px;
+	padding: 30px;
+	border-radius: 100%;
+	background-color: red;
+	font-size: 30px;
+}
+.Sumit-btn-2:hover{
+	background-color: gray;
+}
+/* Sumit-btn-2 end */
+
+/* Sumit-btn-3 start */
+.Sumit-btn-3 {
+	/* text-size-adjust: 20px; */
+	background-color: #00C0FF;
+	border: 3px solid rgb(80, 236, 29);
+	width: 170px;
+	padding: 20px;
+	border-radius: 70px;
+	font-size: 20px;
+}
+.Sumit-btn-3:hover{
+	background-color: white;
+}
+
+/* Sumit-btn-3 end */
+
