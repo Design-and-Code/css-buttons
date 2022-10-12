@@ -2049,7 +2049,7 @@ a:focus-visible {
 /* Sumit-btn-3 end */
 
 /* Dilshad360 Button start */
-.dilshad360-btn {
+.dilshad360-btn-1 {
 	display: block;
 	width: 150px;
 	height: 50px;
@@ -2063,7 +2063,7 @@ a:focus-visible {
 	position: relative;
 	transition: all 0.35s;
 }
-.dilshad360-btn:after {
+.dilshad360-btn-1:after {
 	position: absolute;
 	content: '';
 	top: 0;
@@ -2073,15 +2073,15 @@ a:focus-visible {
 	background: #0bceaf;
 	transition: all 0.35s;
 }
-.dilshad360-btn span {
+.dilshad360-btn-1 span {
 	position: relative;
 	z-index: 2;
 }
-.dilshad360-btn:hover {
+.dilshad360-btn-1:hover {
 	color: #ffff;
 }
 
-.dilshad360-btn:hover:after {
+.dilshad360-btn-1:hover:after {
 	width: 100%;
 }
 /* Dilshad360 Button end */
