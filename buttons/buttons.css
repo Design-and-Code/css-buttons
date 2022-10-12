@@ -1315,14 +1315,14 @@ a:focus-visible {
 	background-color: transparent;
 	border: 3px solid #00d7c3;
 	border-radius: 50px;
-	transition: all 0.15s ease-in-out;  
+	transition: all 0.15s ease-in-out;
 	color: black;
 	background-image: linear-gradient(30deg, #00d7c3 50%, transparent 50%);
 	background-size: 500px;
 	background-repeat: no-repeat;
 	background-position: 0%;
-  }
-  .ankush-btn-1:hover {
+}
+.ankush-btn-1:hover {
 	color: white;
 	background-color: black;
 	box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
@@ -1330,16 +1330,16 @@ a:focus-visible {
 	animation: ankush-btn-1-pulse 1s infinite;
 	transition: 0.3s;
 	background-position: 100%;
-  }
-  @keyframes ankush-btn-1-pulse {
+}
+@keyframes ankush-btn-1-pulse {
 	0% {
-	  transform: scale(1);
+		transform: scale(1);
 	}
 	70% {
-	  transform: scale(0.9);
+		transform: scale(0.9);
 	}
 	100% {
-	  transform: scale(1);
+		transform: scale(1);
 	}
 }
 
@@ -1681,7 +1681,6 @@ a:focus-visible {
 }
 /* Harsh Jain's button 2 ends*/
 
-
 /* Nitish btn start */
 .Nitish-btn-26 {
 	display: inline-block;
@@ -1723,50 +1722,59 @@ a:focus-visible {
 }
 /*Nitish's btn end */
 
-
 /*Thiago's btn start*/
 .Okan-btn-1 {
 	background-color: #b4befe;
 	border: none;
 	border-radius: 5px;
 	padding: 20px 30px;
-	transition: .5s;
+	transition: 0.5s;
 	cursor: pointer;
 	font-family: JetBrains, monospace;
-
 }
-.Okan-btn-1:hover{
+.Okan-btn-1:hover {
 	background-color: #94e2d5;
-	transition: .5s;
-	-webkit-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0);
+	transition: 0.5s;
+	-webkit-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px,
+		rgb(95, 184, 255) 10px 10px 0px 0px,
+		rgb(161, 216, 255) 15px 15px 0px 0px,
+		rgb(202, 230, 255) 20px 20px 0px 0px,
+		rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px,
+		rgb(95, 184, 255) 10px 10px 0px 0px,
+		rgb(161, 216, 255) 15px 15px 0px 0px,
+		rgb(202, 230, 255) 20px 20px 0px 0px,
+		rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
-
 
 /*Thiago's btn start*/
 
-
 /* cyphers 2nd btn start */
-.cypher-2-btn{
-	font-size:1.2rem;
+.cypher-2-btn {
+	font-size: 1.2rem;
 	padding: 1em 2.5em;
 	background-color: #2874a6;
 	cursor: pointer;
-	position:relative;
-	border:none;
-	background-color: #343A40;
-	border-radius: 4px;  
+	position: relative;
+	border: none;
+	background-color: #343a40;
+	border-radius: 4px;
 	color: #fff;
 	padding: 8px 16px;
 }
 
-.cypher-2-btn:hover{
-	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-	animation:slidebg 5s linear infinite;
+.cypher-2-btn:hover {
+	background-image: linear-gradient(
+		90deg,
+		#00c0ff 0%,
+		#ffcf00 49%,
+		#fc4f4f 80%,
+		#00c0ff 100%
+	);
+	animation: slidebg 5s linear infinite;
 }
 
 /* cypherrs 2nd bt end  */
-
 
 /* kkartik07's 1st btn start */
 .kkartik07-btn-1 {
@@ -1774,7 +1782,8 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	font-size: 30px;
 	border: none;
 	outline: none;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
 	cursor: pointer;
 	margin: 8px 15px;
 	transition: 0.2s ease;
@@ -1783,26 +1792,25 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	position: relative;
 	overflow: hidden;
 	box-shadow: rgba(110, 110, 119, 0.452) 0px 8px 30px 0px;
-  }
-  .kkartik07-btn-1::before {
+}
+.kkartik07-btn-1::before {
 	width: 200%;
 	height: 200%;
-	content: "";
+	content: '';
 	transform: rotate(-45deg);
 	position: absolute;
 	top: -10%;
 	left: -180%;
 	background: rgba(119, 129, 238, 0.2);
 	transition: 0.3s ease-in-out;
-  }
-  .kkartik07-btn-1:hover::before {
+}
+.kkartik07-btn-1:hover::before {
 	left: 55%;
-  }
+}
 /* kkartik07's 1st btn end */
 
-
 /* Deepak Kumar btn start */
-  .DeepakKumar-button-31 {
+.DeepakKumar-button-31 {
 	position: absolute;
 	transform: translate(-50%, -50%);
 	padding: 1em 1em;
@@ -1858,17 +1866,16 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 
 /* Deepak Kumar btn end */
 
-
 /* Shridhar's btn start */
-.shridhar-btn{
-	font-size:1.2rem;
+.shridhar-btn {
+	font-size: 1.2rem;
 	cursor: pointer;
-	position:relative;
+	position: relative;
 	display: flex;
 	transition: 1s;
 }
 
-.shridhar-btn::before{
+.shridhar-btn::before {
 	content: 'Follow';
 	display: flex;
 	justify-content: center;
@@ -1879,11 +1886,11 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	width: 100%;
 	height: 100%;
 	z-index: 10;
-	background: rgba(40,40, 40,1);
+	background: rgba(40, 40, 40, 1);
 	transition: 0.2s;
 	border-radius: 3px;
 }
-.shridhar-btn:hover::before{
+.shridhar-btn:hover::before {
 	opacity: 0;
 	pointer-events: none;
 }
@@ -1902,24 +1909,20 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	filter: brightness(200%);
 }
 
-
-.shridhar-btn-youtube{
+.shridhar-btn-youtube {
 	background: rgb(255, 0, 0);
 	border-radius: 5px 0px 0px 5px;
 }
 
-
-.shridhar-btn-twitter{
+.shridhar-btn-twitter {
 	background: rgb(29, 161, 242);
 	border-radius: 0px 5px 5px 0px;
 }
 
 /* Shridhar's btn end  */
 
-
-
 /* haldaranup 1st button starts here */
-.haldaranup-btn-1{
+.haldaranup-btn-1 {
 	font-size: 1.25rem;
 	padding: 16px 36px;
 	background-color: rgb(117, 0, 172);
@@ -1930,14 +1933,14 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	transition: all 500ms;
 }
 
-.haldaranup-btn-1:hover{
+.haldaranup-btn-1:hover {
 	background-color: rgb(255, 238, 0);
 	color: #000757;
 }
 
 /* haldaranup 1st button ends here */
 /* Nitish-btn-2 start */
-.Nitish-btn-2{
+.Nitish-btn-2 {
 	display: inline-block;
 	background-color: #7b38d8;
 	border-radius: 50px;
@@ -1949,9 +1952,8 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	width: 150px;
 	cursor: pointer;
 	margin: 5px;
-
 }
-.Nitish-btn-2:hover{
+.Nitish-btn-2:hover {
 	border: 4px solid #ea972a;
 	background-color: #90d838;
 	color: #000000;
@@ -1959,7 +1961,6 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	transition: all 0.5s;
 }
 /* Nitish-btn-2 end */
-
 
 /* Shani button starts */
 
@@ -1991,7 +1992,7 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	bottom: 0;
 	right: 50%;
 	left: 50%;
-	content: "";
+	content: '';
 	background-color: #43fbf2;
 }
 
@@ -2004,14 +2005,14 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 }
 
 /* Sumit1 btn start */
-.Sumit-btn-1{
+.Sumit-btn-1 {
 	background-color: #26d023;
 	border: 3px solid red;
 	width: 200px;
 	padding: 20px;
 	font-size: 30px;
 }
-.Sumit-btn-1:hover{
+.Sumit-btn-1:hover {
 	background-color: yellow;
 	transform: all 2s;
 }
@@ -2026,7 +2027,7 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 	background-color: red;
 	font-size: 30px;
 }
-.Sumit-btn-2:hover{
+.Sumit-btn-2:hover {
 	background-color: gray;
 }
 /* Sumit-btn-2 end */
@@ -2034,16 +2035,53 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 /* Sumit-btn-3 start */
 .Sumit-btn-3 {
 	/* text-size-adjust: 20px; */
-	background-color: #00C0FF;
+	background-color: #00c0ff;
 	border: 3px solid rgb(80, 236, 29);
 	width: 170px;
 	padding: 20px;
 	border-radius: 70px;
 	font-size: 20px;
 }
-.Sumit-btn-3:hover{
+.Sumit-btn-3:hover {
 	background-color: white;
 }
 
 /* Sumit-btn-3 end */
 
+/* Dilshad360 Button start */
+.dilshad360-btn {
+	display: block;
+	width: 150px;
+	height: 50px;
+	line-height: 40px;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #333;
+	letter-spacing: 2px;
+	text-align: center;
+	position: relative;
+	transition: all 0.35s;
+}
+.dilshad360-btn:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #0bceaf;
+	transition: all 0.35s;
+}
+.dilshad360-btn span {
+	position: relative;
+	z-index: 2;
+}
+.dilshad360-btn:hover {
+	color: #ffff;
+}
+
+.dilshad360-btn:hover:after {
+	width: 100%;
+}
+/* Dilshad360 Button end */
