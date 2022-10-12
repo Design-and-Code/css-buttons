@@ -2048,31 +2048,29 @@ box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0
 /* Sumit-btn-3 end */
 
 /* Jasimrazi-btn-1 starts here */
+
 .Jasimrazi-btn-1 {
 	font-size: 20px;
 	font-weight: 200;
 	letter-spacing: 1px;
 	padding: 13px 50px 13px;
 	outline: 0;
-	border: 1px solid black;
+	border: 1px solid rgb(255, 255, 255);
 	cursor: pointer;
 	position: relative;
+	color: white;
 	background-color: rgba(0, 0, 0, 0);
+	transition: 0.4s all ease;
   }
   
-  .Jasimrazi-btn-1::after {
-	content: "";
+  .Jasimrazi-btn-1:hover{
+	
 	background-color: #ffe54c;
-	width: 100%;
-	z-index: -1;
-	position: absolute;
-	height: 100%;
-	top: 7px;
-	left: 7px;
-	transition: 0.2s;
+	top: -7px;
+	left: -7px;
+	transition: 0.4s all ease;
+	color: #000000;
+	border: 1px solid #000000;
   }
   
-  .Jasimrazi-btn-1:hover::after {
-	top: 0px;
-	left: 0px;
-  }
+  /* Jasimrazi-btn-1 ends here */
