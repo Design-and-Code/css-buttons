@@ -2150,3 +2150,32 @@ a:focus-visible {
 }
 
 /* Dilshad360 Button end */
+
+/* Jasimrazi-btn-1 starts here */
+
+.Jasimrazi-btn-1 {
+	font-size: 20px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	padding: 13px 50px 13px;
+	outline: 0;
+	border: 1px solid rgb(255, 255, 255);
+	cursor: pointer;
+	position: relative;
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	transition: 0.4s all ease;
+  }
+  
+  .Jasimrazi-btn-1:hover{
+	
+	background-color: #ffe54c;
+	top: -7px;
+	left: -7px;
+	transition: 0.4s all ease;
+	color: #000000;
+	border: 1px solid #000000;
+  }
+  
+  /* Jasimrazi-btn-1 ends here */
+
