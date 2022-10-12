@@ -2179,3 +2179,30 @@ a:focus-visible {
   
   /* Jasimrazi-btn-1 ends here */
 
+/* cypher's btn-3 start */
+
+.cypher-btn-3 {
+    font-family: Helvetica;
+    /* letter-spacing: 0.2em; */
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    /* max-width: 480px; */
+    width: 59%;
+    height: 30%;
+    outline: 3px solid;
+    outline-color: rgba(71, 126, 232,0.5);
+    outline-offset: 20px;
+    transition: all 200ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.cypher-btn-3:hover {
+	color: rgba(71, 126, 232, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 300px;
+}
+
+
+  
+/* cypher's btn-3 end*/
