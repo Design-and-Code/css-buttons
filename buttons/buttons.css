@@ -2179,3 +2179,43 @@ a:focus-visible {
   
   /* Jasimrazi-btn-1 ends here */
 
+/* Deepesh Sharma's button 1 starts*/
+.deepeshsharmaofficial-button-1 {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-family: "montserrat";
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s ease-out;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    z-index: 1;
+}
+
+.deepeshsharmaofficial-button-1:hover {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.deepeshsharmaofficial-button-1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #2498db;
+    z-index: -1;
+    transition: 0.8s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+    height: 180%;
+}
+
+.deepeshsharmaofficial-button-1:hover::before {
+    height: 0%;
+}
+/* Deepesh Sharma's button 1 ends*/
