@@ -1745,3 +1745,31 @@ a:focus-visible {
 }
 
 /* cypherrs 2nd bt end  */
+
+/* radzhiv's btn start*/
+.newbtn-btn-1{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+	border-radius: 5px;
+	background-image: linear-gradient(to right,#3494E6,#ec6ead);
+	color: white;
+}
+.newbtn-btn-1:hover{
+	text-align: center;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: hue 10s infinite linear;
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+/*radzhiv's btn end*/
