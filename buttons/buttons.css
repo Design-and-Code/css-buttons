@@ -1747,7 +1747,7 @@ a:focus-visible {
 /* cypherrs 2nd bt end  */
 
 /* radzhiv's btn start*/
-.newbtn-btn-1{
+.radzhiv-btn-1{
 	padding: 10px;
 	font-size: 20px;
 	font-weight: bolder;
@@ -1755,7 +1755,7 @@ a:focus-visible {
 	background-image: linear-gradient(to right,#3494E6,#ec6ead);
 	color: white;
 }
-.newbtn-btn-1:hover{
+.radzhiv-btn-1:hover{
 	text-align: center;
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -1764,7 +1764,7 @@ a:focus-visible {
 	animation: hue 10s infinite linear;
 }
 
-@keyframes hue {
+@keyframes radzhiv25-button-hue {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
