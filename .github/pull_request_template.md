@@ -6,6 +6,9 @@
 
 (Write your answer here.)
 
+## Class Naming Convention for your button
+- [ ] Does your html `button` element have class-name like this: `your_github_username-button-index` (example: `rajkumar-justcoder-button-1` ). 
+
 ## Checklist
 
 - [ ] I've read the contribution guidelines.
@@ -16,3 +19,7 @@
 ## Related Issues
 
 Fixes Issue # (write number after `#`)
+
+
+## Screenshot
+( Add your button screenshot here.)
