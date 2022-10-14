@@ -1,4 +1,9 @@
-## Have you read the Contribution Guidelines? If not, check [README.md](https://github.com/Design-and-Code/css-buttons#some-rules-to-contribute) file first.
+> **Note**
+> - We strictly follow the Contribution Guideline and expect contributors to follow it as well. 
+> - If a lot of conflicts/changes are requested in the PR, please open a new PR with the requested changes (either you or we can close the PR). 
+
+
+## Have you read the Contribution Guidelines? If not, check [CONTRIBUTING.md](https://github.com/Design-and-Code/css-buttons/blob/main/CONTRIBUTING.md) file first.
 
 (Write your answer here.)
 
