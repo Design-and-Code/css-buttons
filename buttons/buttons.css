@@ -2248,4 +2248,30 @@ a:focus-visible {
     height: 0%;
 }
 /* Deepesh Sharma's button 1 ends*/
+/*Arvind0302 button start */
+.arvind0302-btn-1
+{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    font-size: 15px;
+    color: black;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+.arvind0302-btn-1:hover
+{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+                0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+	color: black;
+}
+/*Arvind0302 button end */
 
