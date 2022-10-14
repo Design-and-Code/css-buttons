@@ -10,6 +10,9 @@
     --forground-main-color: rgb(255 255 255 / 1);
     --background-main-color: rgb(0, 0, 0);
     --card-border-radius: 30px;
+    --default-color:rgba(156, 163, 175);
+    --link-hover-color: rgb(129 120 255 / 1);
+    --default-link-color: rgb(129 120 255 / 1);
 }
 
 body {
@@ -34,6 +37,10 @@ body::-webkit-scrollbar-thumb {
 main {
     display: flex;
     align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .navbar {
@@ -98,12 +105,118 @@ main {
     margin-top: 20px;
 }
 
-footer {
-    padding-top: 3rem;
-    text-align: center;
+
+/* footer stat here  */
+.footer-main{
+    margin-top: 2rem;
 }
 
-footer>a {
-    color: white;
-    font-weight: 700;
+.footer-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 1.25rem;
+    flex-direction: column;
 }
+
+
+@media (min-width: 1280px) {
+    .footer-container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 640px) {
+    .footer-container {
+        flex-direction: row;
+        max-width: 640px;
+    }
+}
+
+
+
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .footer-title {
+        justify-content: flex-start;
+    }
+}
+
+.footer-copyright {
+    margin-top: 1rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: var(--default-color)
+}
+
+@media (min-width: 640px) {
+    .footer-copyright {
+        padding: 0.5rem 0 0.5rem 1rem;
+        margin-left: 1rem;
+        margin: 0 0 0 1rem;
+        border-left-width: 2px;
+        border-color: rgba(31, 41, 55);
+    }
+}
+
+.footer-copyright>a {
+    color: rgb(129 120 255 / 1)
+}
+
+.socials-span {
+    margin-top: 1rem;
+    justify-content: center;
+    display: inline-flex;
+}
+
+@media (min-width: 640px) {
+    .socials-span {
+        margin-left: auto;
+        margin-top: 0;
+        justify-content: flex-start;
+    }
+}
+
+
+.socials-span>a {
+    color: var(--default-color);
+}
+
+.socials-span>a:hover {
+    color: var(--link-hover-color);
+    transform: scale(1.4);
+    transition: all  0.3s ease-in-out;
+}
+
+.socials-span>a:not(:first-child) {
+    margin-left: 0.75rem;
+}
+
+.socials-span>a>svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
+/* footer ends here */
