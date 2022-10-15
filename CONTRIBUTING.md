@@ -6,7 +6,7 @@ Glad to see you want to contribute to this project!
 >
 > - We donot expect Modified CSS button of existing button.
 > 
-> - Avoid duplicate contributions, please check if a project exists before contributing.
+> - Avoid duplicate contributions, please check if a button already exists before contributing.
 
 ## Contents
 
@@ -69,13 +69,6 @@ To start contributing, follow the below guidelines:
 
 
 ## Add your button to css-buttons
-
-> **Note**
->
-> Run the following commands on the Terminal. <br>
-> If you are on **Windows**, run the commands on **Git Bash** terminal 📝
->
-> ([read this to understand](#note-about-this-project))
 
 1. Add your HTML code in the [index.html](https://github.com/Design-and-Code/css-buttons/blob/main/index.html) file.
 2. Add your CSS code in the [buttons.css](https://github.com/Design-and-Code/css-buttons/blob/main/buttons/buttons.css) file.
