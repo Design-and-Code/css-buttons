@@ -10,7 +10,7 @@
     --forground-main-color: rgb(255 255 255 / 1);
     --background-main-color: rgb(0, 0, 0);
     --card-border-radius: 30px;
-    --default-color:rgba(156, 163, 175);
+    --default-color: rgba(156, 163, 175);
     --link-hover-color: rgb(129 120 255 / 1);
     --default-link-color: rgb(129 120 255 / 1);
 }
@@ -107,7 +107,7 @@ a {
 
 
 /* footer stat here  */
-.footer-main{
+.footer-main {
     margin-top: 2rem;
 }
 
@@ -206,7 +206,7 @@ a {
 .socials-span>a:hover {
     color: var(--link-hover-color);
     transform: scale(1.4);
-    transition: all  0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .socials-span>a:not(:first-child) {

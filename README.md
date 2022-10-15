@@ -16,26 +16,13 @@
 - Do not change any code in the `index.html` file except for button section.
 - Do not change any code in the `assets` folder.
 
-# How to contribute by adding more buttons
 
-1. Fork the repo and clone it.
-2. Add your HTML code in the [index.html](https://github.com/Design-and-Code/css-buttons/blob/main/index.html) file.
-3. Add your CSS code in the [buttons.css](https://github.com/Design-and-Code/css-buttons/blob/main/buttons/buttons.css) file.
-4. Make sure you do not change any other button's code.
-5. For naming css classes use the correct naming conventions - eg. yourname-btn-index or btn-yourname-index.
-6. When you open the PR, please include a full screenshot.
+## Contribution Guidelines 🏗
 
-#### Demo code 
-```html
-    <div class="button-container">
-            <!-- add your buttons here, eg.-->
-            <button class="{yourname-button-index}"><span> Example Button </span></button>
-            <div class="createdby-section">
-                Created by
-                <a href="{yourgithublink}">{YOURNAME}</a>
-            </div>
-    </div>
-```
+Want to add your inputs to the repo? We invite you to contribute.
+
+Head to [CONTRIBUTING.md](./CONTRIBUTING.md) to start contributing.
+
 
 ### Folder Structure
 
