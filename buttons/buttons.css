@@ -2309,3 +2309,92 @@ a:focus-visible {
 }
 
 /*radzhiv's btn end*/
+
+/* Sakshi's btn */
+h1 {
+    padding: 50px 0;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  :active, :hover, :focus {
+    outline: 0!important;
+    outline-offset: 0;
+  }
+  ::before,
+  ::after {
+    position: absolute;
+    content: "";
+  }
+  
+  .btn-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+  }
+  .btn {
+    position: relative;
+    display: inline-block;
+    width: auto; height: auto;
+    background-color:#ffffff;
+    border: none;
+    cursor: pointer;
+    margin: 0px 25px 15px;
+    min-width: 150px;
+  }
+    .btn span {         
+      position: relative;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      top: 0; left: 0;
+      width: 100%;
+      padding: 15px 20px;
+      transition: 0.3s;
+    }
+
+    .btn.hover-border-6::before,
+.btn.hover-border-6::after {
+  top: 0;
+  transition: width 0.2s 0.35s ease-out;
+}
+.btn.hover-border-6::before {
+  right: 50%;
+}
+.btn.hover-border-6::after {
+  left: 50%;
+}
+.btn.hover-border-6:hover::before,
+.btn.hover-border-6:hover::after {
+  width: 50%;
+  transition: width 0.2s ease-in;   
+}
+
+.btn.hover-border-6 span::before,
+.btn.hover-border-6 span::after {
+  width: 0%; height: 0%;
+  background: transparent;
+  opacity: 0;
+  z-index: 2;
+  transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;
+}
+.btn.hover-border-6 span::before {
+  top: 0; left: 0;
+  border-left: 7px solid rgb(255, 0, 0);
+  border-bottom: 7px solid rgb(247, 126, 126);
+}
+.btn.hover-border-6 span::after {
+  top: 0; right: 0;
+  border-right: 7px solid rgb(105, 175, 47);
+  border-bottom: 7px solid rgb(0, 255, 128);
+}
+.btn.hover-border-6 span:hover::before,
+.btn.hover-border-6 span:hover::after {
+  width: 50%; height: 96%;
+  opacity: 1;
+  transition: height 0.2s 0.2s ease-in, width 0.2s 0.4s linear, opacity 0s 0.2s;   
+}
