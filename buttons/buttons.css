@@ -1493,6 +1493,47 @@ a:focus-visible {
 
 /* ANIKET btn end */
 
+
+
+/* Aniket's btn start */
+
+.aniket-btn-2 {
+    color: #ff00e6;
+    border-top: 5px solid #ff00e63f;
+    border-left: 5px solid #ff00e63d;
+    font-size: 16px;
+    border-radius: 05px;
+    width: 10em;
+    height: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin-left: 1em;
+    background-color: #000;
+}
+
+.aniket-btn-2:hover {
+    border-top: 5px solid #ff00e6c0;
+    border-left: 5px solid #ff00e6c9;
+    box-shadow: 0 0.3rem 1.5rem #ff00e6;
+    color: white;
+    border-width: 5px solid;
+    margin-bottom: 20px;
+    transition: 0.5s ease;
+    /* background: transparent; */
+}
+
+/* Aniket's btn end */
+
+
+
 /* Harsh Jain's button starts*/
 .harsh-jain-button-1 {
     background-color: #343a40;
