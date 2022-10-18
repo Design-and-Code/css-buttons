@@ -256,6 +256,7 @@ a:focus-visible {
 
 .button-6:hover span {
     transform: translate3d(-8px, -8px, 0);
+	  box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee
 }
 
 /* add your css of buttons from here  */
@@ -637,6 +638,7 @@ a:focus-visible {
     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
         0 0 200px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+	  box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee
 }
 
 .Mahekjain-btn-2 a:nth-child(1) {
