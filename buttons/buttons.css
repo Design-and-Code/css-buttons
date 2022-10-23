@@ -2349,3 +2349,25 @@ a:focus-visible {
 }
 
 /* Gaurav Sharma's button 1 end*/
+/*0xYashwanth's Button starts*/
+._0xYashwanth-btn-1{
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;900&display=swap');
+    height: 3.5rem;
+    width: 8rem;
+    padding: 0 2rem;
+    border-radius: 1rem;
+    background: linear-gradient(
+        -45deg,#9925ea,#338aff,#9925ea
+        
+    );
+    background-size: 400%;
+    background-position: 90% 0;
+    color: #ffff;
+    transition: background 0.8s;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+}
+._0xYashwanth-btn-1:hover{
+    background-position: 185% 50%;
+    cursor: pointer;
+}
