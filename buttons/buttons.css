@@ -2309,3 +2309,43 @@ a:focus-visible {
 }
 
 /*radzhiv's btn end*/
+
+/* Gaurav Sharma's button 1 starts*/
+
+.gauravsharmatheofficial-btn-1-svg {
+	position: absolute;
+	right: 54px;
+    top: 114px;
+	fill: none;
+	stroke: #fff;
+	stroke-dasharray: 150 480;
+	stroke-dashoffset: 150;
+	transition: 1s ease-in-out;
+}
+
+.gauravsharmatheofficial-btn-1 {
+	width: 180px;
+	height: 60px;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid #a5d3fd;
+	outline: none;
+	transition: 1s ease-in-out;
+}
+
+.gauravsharmatheofficial-btn-1:hover {
+	transition: 1s ease-in-out;
+	background: #5f9ad4;
+}
+
+.gauravsharmatheofficial-btn-1:hover .gauravsharmatheofficial-btn-1-svg {
+	stroke-dashoffset: -480;
+}
+
+.gauravsharmatheofficial-btn-1-span {
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+/* Gaurav Sharma's button 1 end*/
