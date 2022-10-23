@@ -2278,7 +2278,7 @@ a:focus-visible {
 /*Arvind0302 button end */
 
 
-/* radzhiv's btn start*/
+/* radzhiv's btn 1 start*/
 .radzhiv-btn-1 {
     padding: 10px;
     font-size: 20px;
@@ -2308,4 +2308,20 @@ a:focus-visible {
     }
 }
 
-/*radzhiv's btn end*/
+/*radzhiv's btn 1 end*/
+.radzhiv-btn-2 {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #5f6f94;
+}
+.radzhiv-btn-2:hover{
+    background-color: transparent;
+    color: #2e86c1;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    cursor: pointer;
+}
+/* radzhiv's btn 2 start */
