@@ -2435,6 +2435,50 @@ a:focus-visible {
 
 /* Gaurav Sharma's button 1 end*/
 
+
+/* getRicha-btn-1 start */
+
+.getRicha-btn-1 {
+    background-color: #47cf73;
+    padding: 7px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.getRicha-btn-1:hover {
+    animation: getRicha-btn-1-wiggle 2s infinite;
+}
+
+@keyframes getRicha-btn-1-wiggle {
+    5%,
+    50% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(1);
+    }
+    15% {
+      transform: scale(1);
+    }
+    20% {
+      transform: scale(1) rotate(-5deg);
+    }
+    25% {
+      transform: scale(1) rotate(5deg);
+    }
+    30% {
+      transform: scale(1) rotate(-3deg);
+    }
+    35% {
+      transform: scale(1) rotate(2deg);
+    }
+    40% {
+      transform: scale(1) rotate(0);
+    }
+}
+
+/* getRicha-btn-1 end */
+
 .arnav-btn-1{
     opacity: 1;
     outline: 0;
@@ -2484,4 +2528,3 @@ a:focus-visible {
     content: attr(data-front);
     transform: translateY(0) rotateX(0);
   }
-
