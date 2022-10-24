@@ -2310,6 +2310,47 @@ a:focus-visible {
 
 /*radzhiv's btn end*/
 
+
+/* Aditya's button starts */
+
+.aditya-btn-1 {
+    width: 150px;
+    height: 50px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    background: rgb(0, 68, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 1;
+  }
+  .aditya-btn-1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background-image: linear-gradient(275deg, #190c8e 0%, #b53232 74%);
+    transition: all 0.2s ease-in-out;
+    z-index: -1;
+  }
+   .aditya-btn-1:hover:after {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+    border: none;
+  }
+/* Aditya's button end  */
+
 /* Gaurav Sharma's button 1 starts*/
 
 .gauravsharmatheofficial-btn-1-svg {
