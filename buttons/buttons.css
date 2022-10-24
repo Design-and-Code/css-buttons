@@ -2310,6 +2310,91 @@ a:focus-visible {
 
 /*radzhiv's btn end*/
 
+
+/* avishaan24's btn start  */
+
+.avishaan24-btn-1{
+    color: white;
+    padding: 15px 70px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: medium;
+    margin: auto;
+    background: transparent;
+}
+.avishaan24-btn-1:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1px 5px rgba(138, 59, 88, 0.4), 0 0 1px 10px rgba(138, 59, 88, 0.1), 0 0 1px 15px rgba(138, 59, 88, 0.1);
+    transform: rotate(360deg);
+}
+
+.avishaan24-btn-1::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 5px solid rgb(238, 236, 238);
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: avishaan24-btn-1-oval 2s infinite;
+  }
+  @keyframes avishaan24-btn-1-oval {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 250px;
+      height: 150px;
+      opacity: 0;
+    }
+  }
+
+/* avishaan24's btn end  */
+
+/* Aditya's button starts */
+
+.aditya-btn-1 {
+    width: 150px;
+    height: 50px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    background: rgb(0, 68, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 1;
+  }
+  .aditya-btn-1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background-image: linear-gradient(275deg, #190c8e 0%, #b53232 74%);
+    transition: all 0.2s ease-in-out;
+    z-index: -1;
+  }
+   .aditya-btn-1:hover:after {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+    border: none;
+  }
+/* Aditya's button end  */
+
 /* Gaurav Sharma's button 1 starts*/
 
 .gauravsharmatheofficial-btn-1-svg {
@@ -2349,6 +2434,7 @@ a:focus-visible {
 }
 
 /* Gaurav Sharma's button 1 end*/
+
 
 /* getRicha-btn-1 start */
 
@@ -2392,3 +2478,53 @@ a:focus-visible {
 }
 
 /* getRicha-btn-1 end */
+
+.arnav-btn-1{
+    opacity: 1;
+    outline: 0;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .arnav-btn-1:hover:after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+  .arnav-btn-1:hover:before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+  }
+  .arnav-btn-1:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    color: #323237;
+    display: block;
+    transition: 0.5s;
+    position: absolute;
+    background: #adadaf;
+    content: attr(data-back);
+    transform: translateY(-50%) rotateX(90deg);
+  }
+  .arnav-btn-1:before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    color: #adadaf;
+    display: block;
+    padding: 0 30px;
+    line-height: 40px;
+    transition: 0.5s;
+    position: relative;
+    background: #323237;
+    content: attr(data-front);
+    transform: translateY(0) rotateX(0);
+  }
