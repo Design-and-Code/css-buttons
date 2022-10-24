@@ -2528,3 +2528,27 @@ a:focus-visible {
     content: attr(data-front);
     transform: translateY(0) rotateX(0);
   }
+
+  .lavesh-btn-1{
+    width: 170px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid #3c73ff;
+    background-color: #3c73ff;
+    border-radius: 20px;
+    color: #fff;
+    transition: .3s;
+  }
+  .lavesh-btn-1:hover{
+    box-shadow: 8px 8px #99bdff;
+    transition: .3s;
+  }
