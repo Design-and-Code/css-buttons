@@ -2567,11 +2567,11 @@ a:focus-visible {
   }
   
   .arnav-btn-2:hover::after {
-    animation: 1s glitch;
+    animation: 1s arnav-btn-2-glitch;
     animation-timing-function: steps(2, end);
   }
   
-  @keyframes glitch {
+  @keyframes arnav-btn-2-glitch {
     0% {
       clip-path: var(--slice-1);
       transform: translate(-20px, -10px);
