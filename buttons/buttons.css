@@ -2310,6 +2310,30 @@ a:focus-visible {
 
 /*radzhiv's btn end*/
 
+/* shivanshi btn start */
+.shivanshi-s-btn-1 {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-color: #3330E4;
+    color: #67f878;
+    background-image: linear-gradient(to bottom, transparent 30%, #248f86 90%);
+    background-position: 0% 0%;
+    transition: background 15ms ease-in-out, color 150ms ease-in-out;
+  }
+  .shivanshi-s-btn-1:hover {
+    color: white;
+    background-position: 0 800%;
+  }
+/* shivanshi btn end */
+
 
 /* avishaan24's btn start  */
 
@@ -2529,6 +2553,7 @@ a:focus-visible {
     transform: translateY(0) rotateX(0);
   }
 
+
   .lavesh-btn-1{
     width: 170px;
     height: 40px;
@@ -2552,3 +2577,113 @@ a:focus-visible {
     box-shadow: 8px 8px #99bdff;
     transition: .3s;
   }
+
+  /* radzhiv's btn 2 start */
+  .radzhiv-btn-2 {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #5f6f94;
+}
+.radzhiv-btn-2:hover{
+    background-color: transparent;
+    font-weight: 700;
+    color: #2e86c1;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    cursor: pointer;
+}
+  /* radzhiv's btn 2 end */
+
+
+  .arnav-btn-2, .arnav-btn-2::after {
+    width: 200px;
+    height: 69px;
+    padding-left: 35px;
+    font-size: 36px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: linear-gradient(45deg, transparent 5%, #F8F005 5%);
+    border: 0;
+    color: #000;
+    line-height: 65px;
+    box-shadow: 6px 0px 0px #00E6F6;
+    outline: transparent;
+    position: relative;
+  }
+  
+  .arnav-btn-2::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    
+    content: 'HOVER ME';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #F8F005 5%);
+    text-shadow: -3px -3px 0px #FF013C, 3px 3px 0px #00E6F6;
+    clip-path: var(--slice-0);
+  }
+  
+  .arnav-btn-2:hover::after {
+    animation: 1s arnav-btn-2-glitch;
+    animation-timing-function: steps(2, end);
+  }
+  
+  @keyframes arnav-btn-2-glitch {
+    0% {
+      clip-path: var(--slice-1);
+      transform: translate(-20px, -10px);
+    }
+    10% {
+      clip-path: var(--slice-3);
+      transform: translate(10px, 10px);
+    }
+    20% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 10px);
+    }
+    30% {
+      clip-path: var(--slice-3);
+      transform: translate(0px, 5px);
+    }
+    40% {
+      clip-path: var(--slice-2);
+      transform: translate(-5px, 0px);
+    }
+    50% {
+      clip-path: var(--slice-3);
+      transform: translate(5px, 0px);
+    }
+    60% {
+      clip-path: var(--slice-4);
+      transform: translate(5px, 10px);
+    }
+    70% {
+      clip-path: var(--slice-2);
+      transform: translate(-10px, 10px);
+    }
+    80% {
+      clip-path: var(--slice-5);
+      transform: translate(20px, -10px);
+    }
+    90% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      clip-path: var(--slice-1);
+      transform: translate(0);
+    }
+  }
+
