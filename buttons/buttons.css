@@ -2687,3 +2687,20 @@ a:focus-visible {
     }
   }
 
+.I-button{
+  align-items: center;
+  background: linear-gradient(to right,orange, violet , #e2336b);
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 1rem;
+ width: 230px;
+ height: 75px;
+ text-align: center;
+ font-size: 35px;;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-shadow: #000000;
+}
+.I-button:hover{
+    transition: 0.3s;
+  transform: rotate(360deg);
+}
