@@ -1,5 +1,5 @@
 :root {
-    --btn-bg-color: rgb(255 255 255 / 1);
+    --btn-bg-color: rgb(255 255 256 / 1);
     --btn-bg-color-hover: rgb(129 120 255 / 1);
     --font-color-white: rgb(255 255 255 / 1);
     --font-color-black: rgb(0 0 0 / 1);
@@ -25,7 +25,7 @@ a:focus-visible {
     cursor: pointer;
     background: var(--btn-bg-color);
     border: none;
-    padding: 1.5rem 3rem;
+    padding: 1.7rem 3rem;
     margin: 0;
     font-family: inherit;
     font-size: inherit;
