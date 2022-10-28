@@ -2597,6 +2597,37 @@ a:focus-visible {
 }
   /* radzhiv's btn 2 end */
 
+/* abhishek's btn 1 start */
+  .abhishek0-btn-1 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 150px;
+    z-index: 9;
+    border: 0;
+}
+.abhishek0-btn-1:hover{
+    background: #00bd68;
+}
+  /* abhishek's btn 1 end */
 
   .arnav-btn-2, .arnav-btn-2::after {
     width: 200px;
@@ -2686,4 +2717,3 @@ a:focus-visible {
       transform: translate(0);
     }
   }
-
