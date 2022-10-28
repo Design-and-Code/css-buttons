@@ -2639,7 +2639,41 @@ a:focus-visible {
     animation: 1s arnav-btn-2-glitch;
     animation-timing-function: steps(2, end);
   }
+
+  .divyanshi-btn-1{
+    background-color: #343A40;
+    border-radius: 4px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+  }
   
+  .divyanshi-btn-1:hover{
+    background-image:linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+    );
+    animation:slidebg 2s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+
   @keyframes arnav-btn-2-glitch {
     0% {
       clip-path: var(--slice-1);
