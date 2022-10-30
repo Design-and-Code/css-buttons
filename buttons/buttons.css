@@ -2639,6 +2639,82 @@ a:focus-visible {
     animation: 1s arnav-btn-2-glitch;
     animation-timing-function: steps(2, end);
   }
+
+
+
+
+
+  .btn-potato {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	/* line-height: 2; */
+	color: #ff0;
+	font-size: 19px;
+	font-family: verdana;
+	letter-spacing: 4px;
+
+	/* use combination of any two */
+	/* 1. */
+	/* padding: 5px; */
+
+	/* 2. */
+	padding-left: 5px;
+	/* padding-right: 5px; */
+}
+
+.btn-potato::before,
+.btn-potato::after,
+.btn-potato span::before,
+.btn-potato span::after {
+	content: '';
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background: transparent;
+	transition: 1s;
+	/* -webkit-mix-blend-mode: hue; */
+}
+
+.btn-potato::before {
+	top: -2px;
+	left: -2px;
+	border-top: 2px solid #ff0;
+	border-left: 2px solid #ff0;
+}
+.btn-potato::after {
+	top: -2px;
+	right: -2px;
+	border-top: 2px solid #ff0;
+	border-right: 2px solid #ff0;
+}
+
+.btn-potato span::before {
+	bottom: -2px;
+	left: -2px;
+	border-bottom: 2px solid #ff0;
+	border-left: 2px solid #ff0;
+}
+.btn-potato span::after {
+	bottom: -2px;
+	right: -2px;
+	border-bottom: 2px solid #ff0;
+	border-right: 2px solid #ff0;
+}
+
+
+a:hover::before,
+a:hover::after,
+a:hover span::before,
+a:hover span::after  {
+	width: calc( 180px / 2);
+	height: calc( 50px / 2);
+}
+
   
   @keyframes arnav-btn-2-glitch {
     0% {
