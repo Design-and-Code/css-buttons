@@ -2687,7 +2687,7 @@ a:focus-visible {
     }
   }
 
-.I-button{
+.IpsitaSenapati-button{
   align-items: center;
   background: linear-gradient(to right,orange, violet , #e2336b);
   padding: 10px;
@@ -2696,11 +2696,11 @@ a:focus-visible {
  width: 230px;
  height: 75px;
  text-align: center;
- font-size: 35px;;
+ font-size: 35px;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  text-shadow: #000000;
 }
-.I-button:hover{
+.IpsitaSenapati-button:hover{
     transition: 0.3s;
   transform: rotate(360deg);
 }
