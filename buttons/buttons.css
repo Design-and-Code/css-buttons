@@ -2687,3 +2687,122 @@ a:focus-visible {
     }
   }
 
+<<<<<<< Updated upstream
+=======
+  /* alisha's btn 1 start */
+
+   .alisha-takkar-btn-1 {
+    background: #350048;
+    height: 50px;
+    margin: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 155px; 
+  }
+
+  .alisha-takkar-btn-1 a{
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.2);
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .alisha-takkar-btn-1:hover a {
+    letter-spacing: 2px;
+  }
+
+  .alisha-takkar-btn-1 a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,0.15), transparent);
+    transform: skewX(45deg) translateX(0) ;
+    transition: 0.5s;
+  }
+
+  .alisha-takkar-btn-1:hover a::before {
+    transform: skewX(45deg) translateX(200%);
+  }
+
+  .alisha-takkar-btn-1::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    height: 10px;
+    width: 30px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+
+  .alisha-takkar-btn-1:hover::before {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+  }
+
+  .alisha-takkar-btn-1::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5px;
+    height: 10px;
+    width: 30px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+
+  .alisha-takkar-btn-1:hover::after {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+  }
+
+  .alisha-takkar-btn-1::before, 
+  .alisha-takkar-btn-1::after {
+    background: #ff1f71;
+    box-shadow: 0 0 5px #ff1f71,
+    0 0 15px #ff1f71,
+    0 0 30px #ff1f71,
+    0 0 60px #ff1f71;
+  }
+
+  .alisha-takkar-btn-1:active a{
+    color: #000;
+  }
+
+  /* alisha's btn 1 end */
+
+>>>>>>> Stashed changes
