@@ -2640,6 +2640,22 @@ a:focus-visible {
     animation-timing-function: steps(2, end);
   }
   
+  /* Amit's button */
+  .Amit-btn-1{
+    color: red;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px red,2px 3px 5px blue;
+    font-size: 20px;
+    
+  }
+  .Amit-btn-1:hover{
+           text-shadow: 2px 3px 5px green;
+           font-weight: bold;
+           box-shadow: 2px 3px 5px rgb(8, 159, 234),2px 3px 5px rgb(103, 34, 46),2px 3px 5px rgb(38, 99, 38);
+           border:4px solid  purple;
+           
+  }
   @keyframes arnav-btn-2-glitch {
     0% {
       clip-path: var(--slice-1);
