@@ -1,6 +1,12 @@
 # CSS Buttons
 > A collection of simple and subtle CSS-only hover animations for buttons. ✨
 
+
+> **NOTE**
+>
+> - This project is under maintenance so pr and issue are on hold
+
+
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://github.com/Design-and-Code/css-buttons)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/Design-and-Code/css-buttons)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103?style=flat)](https://github.com/Design-and-Code/css-buttons)
