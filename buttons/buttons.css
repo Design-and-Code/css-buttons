@@ -2703,3 +2703,39 @@ a:focus-visible {
     }
   }
 
+
+/* adilcodes-btn-1 start */
+.adilcodes-btn-1{
+    border: 0;
+    cursor: pointer;
+    padding: 13px 32px;
+    font-size: 14px;
+    position: relative;
+    z-index:0;
+    transition: 0.3s ease 0.1s;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 1px #00000011;
+}
+.adilcodes-btn-1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(252, 40, 71);
+    transition: 0.5s ease;
+    z-index: -1;
+    scale: 0.6;
+}
+.adilcodes-btn-1:hover::after{
+    width: 100%;
+    scale: 1.21;
+    /* rotate: 180deg; */
+    transform: rotateX(180deg) rotateZ(45deg);
+}
+.adilcodes-btn-1:hover{
+    color: #fff;
+}
+/* adilcodes-btn-1 end */
