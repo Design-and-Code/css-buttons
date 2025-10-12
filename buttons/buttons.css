@@ -2703,8 +2703,8 @@ a:focus-visible {
     }
   }
 
-/* Trendy Glow Button */
-.trendy-glow-btn {
+/* spence709-btn-1 start */
+.spence709-btn-1 {
     position: relative;
     padding: 18px 40px;
     font-size: 16px;
@@ -2719,7 +2719,7 @@ a:focus-visible {
     box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
 }
 
-.trendy-glow-btn::before {
+.spence709-btn-1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -2731,7 +2731,7 @@ a:focus-visible {
     transition: opacity 0.4s ease;
 }
 
-.trendy-glow-btn::after {
+.spence709-btn-1::after {
     content: '';
     position: absolute;
     top: -2px;
@@ -2744,41 +2744,41 @@ a:focus-visible {
     z-index: -1;
     opacity: 0;
     transition: opacity 0.4s ease;
-    animation: glow-rotate 8s linear infinite;
+    animation: spence709-btn-1-glow 8s linear infinite;
 }
 
-.trendy-glow-btn span {
+.spence709-btn-1 span {
     position: relative;
     z-index: 1;
     transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
     display: inline-block;
 }
 
-.trendy-glow-btn:hover {
+.spence709-btn-1:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 8px 30px rgba(102, 126, 234, 0.6),
                 0 0 40px rgba(118, 75, 162, 0.4);
 }
 
-.trendy-glow-btn:hover::before {
+.spence709-btn-1:hover::before {
     opacity: 1;
 }
 
-.trendy-glow-btn:hover::after {
+.spence709-btn-1:hover::after {
     opacity: 1;
     filter: blur(20px);
 }
 
-.trendy-glow-btn:hover span {
+.spence709-btn-1:hover span {
     transform: scale(1.1);
 }
 
-.trendy-glow-btn:active {
+.spence709-btn-1:active {
     transform: translateY(-1px) scale(1.02);
     box-shadow: 0 4px 20px rgba(102, 126, 234, 0.5);
 }
 
-@keyframes glow-rotate {
+@keyframes spence709-btn-1-glow {
     0% {
         background-position: 0% 50%;
     }
@@ -2789,4 +2789,5 @@ a:focus-visible {
         background-position: 0% 50%;
     }
 }
+/* spence709-btn-1 end */
 
