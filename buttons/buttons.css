@@ -2703,3 +2703,63 @@ a:focus-visible {
     }
   }
 
+/* MalavyaRaval-btn-1 CSS start */
+.MalavyaRaval-btn-1 {
+    position: relative;
+    padding: 15px 45px;
+    width: 200px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 40px;
+    border: 2px solid #00d2ff;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MalavyaRaval-btn-1-span {
+    position: relative;
+    z-index: 2;
+    color: #00d2ff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    pointer-events: none; 
+}
+
+.MalavyaRaval-btn-1:hover .MalavyaRaval-btn-1-span {
+    color: #ffffff;
+}
+
+.MalavyaRaval-btn-1::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #00d2ff;
+    border-radius: 40%;
+    transition: 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+}
+
+.MalavyaRaval-btn-1:hover::before {
+    top: -50%;
+    animation: MalavyaRaval-btn-1-rotate 4s linear infinite;
+}
+
+@keyframes MalavyaRaval-btn-1-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
